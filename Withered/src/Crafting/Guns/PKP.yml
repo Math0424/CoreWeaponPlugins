@@ -1,0 +1,29 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7PKP"
+    ammoId: 1
+    modelId: 12
+    isPrimaryGun: true
+    fireType: AUTOMATIC
+    fireRate: 1
+    reloadRate: 5
+    maxAmmoCount: 100
+    ammoPerReload: 1
+    bulletsPerReload: 2
+    fireSound: MEDIUM_AUTOMATIC
+    fireVolume: 300
+    firePitch: 0.9
+    bulletCount: 1
+    bulletDamage: 1.0
+    bulletHeadShotDamage: 1.0
+    bulletFalloff: 0.05
+    bulletSpread: 30
+    bulletSpeed: 2.5
+    bulletDrop: 0.2
+    bulletType: REGULAR
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    startingAttachments:
+    level: 46
+    chanceOfSpawning: 3.0

@@ -1,0 +1,65 @@
+
+messages.mustusepack:
+  - "&cYou must accept the resourcepack in order to play!"
+
+block.crush:
+  - "&2{dead}&6 had a building fall on them"
+  - "&2{dead}&6 was crushed by a block"
+  - "&2{dead}&6 was killed by a falling block"
+
+bullet:
+  - "&2{dead}&6 was shot by &2{killer}&6 using a &r{gun}&6"
+  - "&2{dead}&6 was gunned down by &2{killer}&6 using a &r{gun}&6"
+  - "&2{killer}&6 killed &2{dead}&6 with a &r{gun}&6"
+bullet.headshot:
+  - "&2{dead}&6 was shot in the head by &2{killer}&6 using a &r{gun}&6"
+  - "&2{dead}&6 brains were blown out by &2{killer}&6 using a &r{gun}&6"
+  - "&2{killer}&6 turned &2{dead}&6s head into a mist with a &r{gun}&6"
+bullet.fire:
+  - "&2{dead}&6 was burnt &2{killer}&6 using a &r{gun}&6"
+  - "&2{killer}&6 burnt &2{dead}&6 to a crisp using a &r{gun}&6"
+bullet.grenade:
+  - "&2{dead}&6 was blown to bits by &2{killer}&6 using a &r{gun}&6"
+  - "&2{killer}&6 exploded &2{dead}&6 using a &r{gun}&6"
+bullet.rocket:
+  - "&2{dead}&6 was blown to bits by &2{killer}&6 using a &r{gun}&6"
+  - "&2{killer}&6 annihilated &2{dead}&6 using a &r{gun}&6"
+  - "&2{killer}&6 swiftly ended &2{dead}&6's life using a &r{gun}&6"
+bullet.nuke:
+  - "&2{dead}&6 was nuked by &2{killer}&6 using a &r{gun}&6"
+  - "&2{killer}&6 disintegrated &2{dead}&6 using a &r{gun}&6"
+bullet.acid:
+  - "&2{dead}&6 was melted by &2{killer}&6 using a &r{gun}&6"
+  - "&2{killer}&6 shot &2{dead}&6 using a &r{gun}&6"
+bullet.laser:
+  - "&2{dead}&6 was burnt by &2{killer}&6 using a &r{gun}&6"
+  - "&2{dead}&6 was brought down by &2{killer}&6 using a &r{gun}&6"
+  - "&2{killer}&6 disintegrated &2{dead}&6 using a &r{gun}&6"
+bullet.electric:
+  - "&2{dead}&6 was tazed by &2{killer}&6 using a &r{gun}&6"
+  - "&2{dead}&6 was electrocuted by &2{killer}&6 using a &r{gun}&6"
+  - "&2{killer}&6 shocked &2{dead}&6 using a &r{gun}&6"
+grenade.throwable:
+  - "&2{dead}&6 was blown up by &2{killer}&6"
+  - "&2{dead}&6 was blown to bits by &2{killer}&6"
+  - "&2{killer}&6 exploded &2{dead}&6"
+grenade.gas:
+  - "&2{dead}&6 was suffocated by &2{killer}&6"
+  - "&2{dead}&6 lungs were disintegrated by &2{killer}&6"
+  - "&2{killer}&6 gassed &2{dead}&6"
+grenade.singularity:
+  - "&2{dead}&6 was sucked into the void by &2{killer}&6"
+  - "&2{dead}&6 was lost in a singularity due to &2{killer}&6"
+  - "&2{killer}&6 threw &2{dead}&6 into a singularity"
+grenade.cluster:
+  - "&2{dead}&6 was blown up by &2{killer}&6"
+  - "&2{dead}&6 died to a cluster grenade thrown by &2{killer}&6"
+  - "&2{killer}&6 blew up &2{dead}&6 using a cluster grenade"
+grenade.impact:
+  - "&2{dead}&6 was blown up by &2{killer}&6"
+  - "&2{dead}&6 died to a impact grenade thrown by &2{killer}&6"
+  - "&2{killer}&6 threw an impact grenade into &2{dead}&6s face"
+grenade.incineration:
+  - "&2{dead}&6 was incinerated up by &2{killer}&6"
+  - "&2{dead}&6 died to a incineration grenade thrown by &2{killer}&6"
+  - "&2{killer}&6 threw an incineration grenade under &2{dead}&6s feet"

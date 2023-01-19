@@ -1,0 +1,13 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&aAcid Canister"
+    modelId: 206
+    bulletCount: 1
+    shape:
+      - " p "
+      - " b "
+      - " g "
+    ingredients:
+      p: "pufferfish"
+      b: "bulletcase"
+      g: "gunpowder"

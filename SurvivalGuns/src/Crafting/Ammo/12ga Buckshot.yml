@@ -1,0 +1,13 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&812ga Buckshot"
+    modelId: 205
+    bulletCount: 30
+    shape:
+      - "a a"
+      - "aba"
+      - "aga"
+    ingredients:
+      a: "paper"
+      b: "bulletcase"
+      g: "gunpowder"

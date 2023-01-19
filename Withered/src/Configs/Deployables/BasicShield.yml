@@ -1,0 +1,16 @@
+armor:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.DeployableSerializable
+    name: "&aBasicShield"
+    modelId: 3
+    #types
+    #SHIELD
+    #PLAYER
+    #HEAL
+    type: SHIELD
+    maxHealth: 100.0
+    range: 5.0
+    deploySound: BLOCK_ANVIL_FALL
+    deployPitch: 1
+    deployVolume: 1
+    level: 25
+    chanceOfSpawning: 1.0

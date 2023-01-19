@@ -1,0 +1,22 @@
+ammo:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AmmoSerializable
+    #name of the armor '&' represents the minecraft color code
+    name: "&89MM"
+    #how you refer to the item in the gun
+    id: 2
+    #model ID
+    modelId: 204
+    #what item the gun will be a list of item types are found below
+    #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+    material: IRON_NUGGET
+    #how much can spawn in a chest at once
+    #keep smaller then maxStackSize
+    maxAmount: 32
+    #how big can this item stack to
+    #keep this number between 64-1 (0 means default)
+    maxStackSize: 0
+    #level to spawn item in
+    level: 5
+    #how often will this spawn
+    # 0 - 100.000
+    chanceOfSpawning: 1.0

@@ -1,0 +1,36 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&3Transporter"
+    ammoId: 11
+    modelId: 18
+    isPrimaryGun: false
+    fireType: SEMI_AUTOMATIC
+    fireRate: 8
+    reloadRate: 80
+    maxAmmoCount: 3
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: TELEPORT_GUN
+    fireVolume: 200
+    firePitch: 1.3
+    bulletCount: 1
+    bulletDamage: 0.0
+    bulletHeadShotDamage: 0.0
+    bulletFalloff: 0.0
+    bulletSpread: 0
+    bulletSpeed: 5.0
+    bulletDrop: 0.0
+    bulletType: TELEPORT
+    illegalAttachments:
+      - SILENCER
+      - ARMORPENETRATION
+      - MAXLOAD
+      - HEADSHOTMULTIPLIER
+      - EXTENDEDMAG
+      - TAPEDMAG
+      - LONGBARREL
+      - HITNOTIFY
+    startingAttachments:
+    explosiveYield: 5.0
+    level: 50
+    chanceOfSpawning: 3.0

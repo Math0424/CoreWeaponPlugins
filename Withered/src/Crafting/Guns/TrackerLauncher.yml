@@ -1,0 +1,36 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7TrackerLauncher"
+    ammoId: 12
+    modelId: 17
+    isPrimaryGun: false
+    fireType: SEMI_AUTOMATIC
+    fireRate: 10
+    reloadRate: 200
+    maxAmmoCount: 1
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: ROCKET_LAUNCHER
+    fireVolume: 200
+    firePitch: 1.3
+    bulletCount: 1
+    bulletDamage: 20.0
+    bulletHeadShotDamage: 1.0
+    bulletFalloff: 0.0
+    bulletSpread: 30
+    bulletSpeed: 4.0
+    bulletDrop: 0.3
+    bulletType: TRACKERROCKET
+    illegalAttachments:
+      - SILENCER
+      - ARMORPENETRATION
+      - MAXLOAD
+      - HEADSHOTMULTIPLIER
+      - EXTENDEDMAG
+      - TAPEDMAG
+      - LONGBARREL
+      - HITNOTIFY
+    startingAttachments:
+    explosiveYield: 5.0
+    level: 50
+    chanceOfSpawning: 3.0

@@ -1,0 +1,22 @@
+grenade:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GrenadeSerializable
+    name: "&bSingularity Grenade"
+    modelId: 108
+    grenadeType: SINGULARITY
+
+    soundID: "ITEM_AXE_STRIP"
+    throwPitch: 1.0
+    throwVolume: 3.0
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 3.0
+    shape:
+      - "ara"
+      - "ldl"
+      - "aga"
+    ingredients:
+      d: "infuseddiamond"
+      g: "grenade"
+      a: "hardenedalloy"
+      l: "lightdiode"
+      r: "redstone"

@@ -1,0 +1,14 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&8Rocket"
+    modelId: 214
+    bulletCount: 3
+    shape:
+      - "aaa"
+      - "btp"
+      - "aaa"
+    ingredients:
+      a: "hardenedalloy"
+      p: "heavy_weighted_pressure_plate"
+      t: "tnt"
+      b: "blaze_rod"

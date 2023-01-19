@@ -1,0 +1,89 @@
+#______________________________________________________________________________
+#
+#     WITHERED is developed and maintained by Math0424
+#
+#           want to report a bug or request a feature check out the discord!
+#                        https://discord.gg/wBKUT8t       
+#    Want your server added to the list of server running the plugin just ask me on the discord
+#
+#
+#         NOTE: This plugin will work best on a bungeecord server
+#
+#______________________________________________________________________________
+
+#Worlds
+worlds:
+ - world
+
+#Show debug for the game
+showDebug: false
+#cant shoot or fire in the zone
+spawnProtectSize: 100
+#is world destructable
+destructableWorld: true
+#Show gun stats
+enableGunStats: true
+#enable friendly fire in squads
+friendlyFire: true
+#do slowly die to water 
+deathByWater: true
+#tickspeed of refill rate
+normalChestRefillTime: 20
+advancedChestRefillTime: 80
+#talk radius
+nearbyTalkRadius: 100
+#max cars able to spawn in the world
+maxCars: 20
+#do chests pop when you open them
+chestPop: true
+#speed of structures
+structurePlaceSpeed: 1
+#max amount of primary guns in inventory at once
+maxPrimaryGuns: 1
+#max amount of seccondary guns in inventory at once
+maxSeccondaryGuns: 2
+#time till a event will spawn in min
+eventSpawnTime: 30
+#min amount of players to start an event
+eventMinPlayers: 3
+#reset time to hold the diamond
+endGameDiamondResetTime: 30
+#do cars use road blocks and there road
+useRoadBlocks: true
+#disable or enable nametags
+canSeeNametags: false
+#enable or disable crafting
+disableCrafting: true
+#max squad sizes
+maxSquadSize: 3
+#default money to spawn with
+defaultSpawnMoney: 100
+
+#keep players item on world reloading
+keepPlayerDataOnReset: true
+keepMoneyOnReset: false
+keepBankOnReset: true
+
+#the day that the Endgame diamond will spawn 
+#The endGame diamond will reset the map to the back-up world file 
+#if disabled you would have to manually reset the map using the command
+#/withered reloadworldfrombackupfile
+# 0 = disabled
+# 1 = monday
+#...
+# 7 = sunday
+calendarResetDay: 1
+
+#zombies mode
+zombiesMode: false
+#zombie health
+zombieHealth: 30
+
+#default gun to spawn with
+defaultSpawnGun: 'P226'
+#default item to spawn with
+defaultSpawnItem: 'Rations'
+#force people to use resourcepack
+forceResourcePack: true
+#resource pack. change if you want to use your own
+resourcePack: 'https://www.dropbox.com/s/lpguq2rsgm091fr/Withered.zip?dl=1'

@@ -1,0 +1,20 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bTapedMag"
+    modelID: 15
+    classifier: "mag-modifier"
+    lore:
+      - '&a+5 Shots'
+      - '&c-10 Accuracy'
+    modifiers:
+      AMMO_COUNT: 5.0
+      BULLET_SPREAD: 10.0
+
+    shape:
+      - "abs"
+      - "abs"
+      - "aas"
+    ingredients:
+      b: "hardenedbulletcase"
+      s: "slime_ball"
+      a: "alloy"

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CoreWeapons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../CoreWeapons/out/artifacts/CoreWeapons.jar/CoreWeapons.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

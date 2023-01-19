@@ -1,0 +1,45 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7Barrett M90"
+    modelID: 3
+    ammoID: ".50BMG"
+    fireSoundID: "gun_sniper_large_shoot"
+    firePitch: 1.5
+    fireSoundRange: 275
+
+    isPrimaryGun: true
+    bulletType: REGULAR
+    gunType: SEMI_AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 7
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 30
+    fireSpeed: 50
+
+    bulletDrop: 0.2
+    bulletSpeed: 4.5
+    bulletDamage: 10.0
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.02
+    bulletSpread: 5.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - ATTACHMENT_SILENCER
+      - BULLET_COUNT_PER_SHOT
+    shape:
+      - "  a"
+      - "pcb"
+      - "r a"
+    ingredients:
+      p: "largegunbody"
+      c: "mediumguncomponent"
+      a: "hardenedalloy"
+      b: "reinforcedbarrel"
+      r: "largeriflereceiver"

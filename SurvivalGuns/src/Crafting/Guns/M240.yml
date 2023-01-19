@@ -1,0 +1,46 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7M240"
+    modelID: 10
+    ammoID: ".50BMG"
+    fireSoundID: "gun_automatic_large_shoot"
+    firePitch: 0.9
+    fireSoundRange: 300
+
+    isPrimaryGun: true
+    bulletType: REGULAR
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 30
+
+    shotsAddedPerReloadCycle: 2
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 4
+    fireSpeed: 2
+
+    bulletDrop: 0.3
+    bulletSpeed: 2.0
+    bulletDamage: 2.5
+    headshotMultiplier: 1.8
+    bulletFalloff: 0.05
+    bulletSpread: 30.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - ATTACHMENT_SILENCER
+      - BULLET_COUNT_PER_SHOT
+    shape:
+      - "aaa"
+      - "bcl"
+      - "r f"
+    ingredients:
+      a: "reinforcedalloy"
+      c: "largeguncomponent"
+      l: "reinforcedbarrel"
+      b: "largegunbody"
+      r: "mediumriflereceiver"
+      f: "foregrip"

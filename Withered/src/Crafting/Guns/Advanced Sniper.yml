@@ -1,0 +1,30 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7Advanced Sniper"
+    ammoId: 5
+    modelId: 27
+    isPrimaryGun: true
+    fireType: AUTOMATIC
+    fireRate: 20
+    reloadRate: 10
+    maxAmmoCount: 10
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: SNIPER_GUN
+    fireVolume: 250
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 8.0
+    bulletHeadShotDamage: 10.0
+    bulletFalloff: 0.0
+    bulletSpread: 2
+    bulletSpeed: 4.0
+    bulletDrop: 0.1
+    bulletType: SNIPER
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    startingAttachments:
+      - scope x2
+    level: 48
+    chanceOfSpawning: 3.0

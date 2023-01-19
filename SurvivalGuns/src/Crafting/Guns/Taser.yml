@@ -1,0 +1,48 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&9Taser"
+    modelID: 29
+    ammoID: "battery"
+    fireSoundID: "gun_electric_shoot"
+    firePitch: 1.0
+    fireSoundRange: 120
+
+    isPrimaryGun: false
+    bulletType: ELECTRIC
+    gunType: SEMI_AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 3
+
+    shotsAddedPerReloadCycle: 3
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 20
+    fireSpeed: 80
+
+    bulletDrop: 0.0
+    bulletSpeed: 25.0
+    bulletDamage: 5.0
+    headshotMultiplier: 1.8
+    bulletFalloff: 0.0
+    bulletSpread: 20.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - AMMO_COUNT
+      - ATTACHMENT_SILENCER
+      - BULLET_COUNT_PER_SHOT
+      - ATTACHMENT_ARMOR_PIERCING
+    shape:
+      - " dg"
+      - "abc"
+      - "e g"
+    ingredients:
+      a: "smallgunbody"
+      b: "smallguncomponent"
+      c: "smallbarrel"
+      d: "alloy"
+      e: "smallpistolreceiver"
+      g: "gold_ingot"

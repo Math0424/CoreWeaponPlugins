@@ -1,0 +1,14 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bLaserTarget"
+    material: IRON_NUGGET
+    modelId: 10
+    positiveModifier: 0.0
+    negativeModifier: 0.0
+    lore:
+      - '&9See a line where your aiming'
+    classifier: LASERTARGET
+    modifiers:
+      - LASER_SIGHT:100.0
+    level: 10
+    chanceOfSpawning: 1.0

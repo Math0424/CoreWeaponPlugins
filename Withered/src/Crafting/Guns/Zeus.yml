@@ -1,0 +1,34 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&1Zeus"
+    ammoId: 15
+    modelId: 28
+    isPrimaryGun: true
+    fireType: AUTOMATIC
+    fireRate: 10
+    reloadRate: 50
+    maxAmmoCount: 1
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: ELECTRIC_HIT
+    fireVolume: 200
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 2.0
+    bulletHeadShotDamage: 3.0
+    bulletFalloff: 0.0
+    bulletSpread: 3
+    #distance
+    bulletSpeed: 150.0
+    bulletDrop: 0.0
+    bulletType: ZEUS
+    illegalAttachments:
+      - SILENCER
+      - LONGBARREL
+      - MAXLOAD
+      - ARMORPENETRATION
+      - HEADSHOTMULTIPLIER
+    startingAttachments:
+    explosiveYield: 3.0
+    level: 40
+    chanceOfSpawning: 3.0

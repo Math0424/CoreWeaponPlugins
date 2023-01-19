@@ -1,0 +1,12 @@
+component:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.ComponentSerializable
+    name: "&5ReinforcedBarrel"
+    modelId: 316
+    count: 1
+    shape:
+      - "xxx"
+      - "yyy"
+      - "xxx"
+    ingredients:
+      x: "reinforcedalloy"
+      y: "largebarrel"

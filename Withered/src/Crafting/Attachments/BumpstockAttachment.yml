@@ -1,0 +1,14 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bBumpstock"
+    material: IRON_NUGGET
+    modelId: 3
+    lore:
+      - '&9+3 Firerate'
+      - '&c-10 Accuracy'
+    classifier: BUMPSTOCK
+    modifiers:
+      - FIRE_RATE:-3.0
+      - BULLET_SPREAD:10.0
+    level: 20
+    chanceOfSpawning: 1.0

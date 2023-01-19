@@ -1,0 +1,21 @@
+grenade:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GrenadeSerializable
+    name: "&2Impact Grenade"
+    modelId: 103
+    grenadeType: IMPACT
+
+    soundID: "UI_BUTTON_CLICK"
+    throwPitch: 1.0
+    throwVolume: 3.0
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 3.0
+    shape:
+      - "aga"
+      - "ara"
+      - "ata"
+    ingredients:
+      t: "heavy_weighted_pressure_plate"
+      g: "grenade"
+      a: "alloy"
+      r: "redstone"

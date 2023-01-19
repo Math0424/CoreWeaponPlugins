@@ -1,0 +1,10 @@
+ammo:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AmmoSerializable
+    name: "&8BMG .50mm"
+    id: 5
+    modelId: 208
+    material: BLAZE_ROD
+    maxAmount: 5
+    maxStackSize: 5
+    level: 30
+    chanceOfSpawning: 1.0

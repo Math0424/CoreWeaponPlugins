@@ -1,0 +1,17 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bExtendedMag"
+    modelID: 5
+    classifier: "mag-modifier"
+    lore:
+      - '&a+5 Shots'
+    modifiers:
+      AMMO_COUNT: 5.0
+
+    shape:
+      - "aca"
+      - "aca"
+      - "aca"
+    ingredients:
+      a: "alloy"
+      c: "reinforcedbulletcase"

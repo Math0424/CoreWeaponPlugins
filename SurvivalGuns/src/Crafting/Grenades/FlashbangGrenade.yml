@@ -1,0 +1,21 @@
+grenade:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GrenadeSerializable
+    name: "&8Flashbang"
+    modelId: 106
+    grenadeType: FLASHBANG
+
+    soundID: "UI_BUTTON_CLICK"
+    throwPitch: 1.0
+    throwVolume: 3.0
+    explodeTime: 20
+    throwMultiplier: 1.5
+    explosiveYield: 5.0
+    shape:
+      - "ata"
+      - "xgx"
+      - "aaa"
+    ingredients:
+      g: "grenade"
+      a: "alloy"
+      t: "ghast_tear"
+      x: "gunpowder"

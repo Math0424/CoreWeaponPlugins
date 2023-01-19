@@ -1,0 +1,44 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7Mosin-Nagant"
+    modelID: 20
+    ammoID: "7.62x51mm NATO"
+    fireSoundID: "gun_sniper_medium_shoot"
+    firePitch: 1.5
+    fireSoundRange: 275
+
+    isPrimaryGun: false
+    bulletType: REGULAR
+    gunType: SEMI_AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 7
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 20
+    fireSpeed: 40
+
+    bulletDrop: 0.2
+    bulletSpeed: 4.0
+    bulletDamage: 10.0
+    headshotMultiplier: 1.8
+    bulletFalloff: 0.1
+    bulletSpread: 4.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - BULLET_COUNT_PER_SHOT
+    shape:
+      - "aaa"
+      - "pcb"
+      - "r  "
+    ingredients:
+      p: "smallgunbody"
+      c: "mediumguncomponent"
+      a: "alloy"
+      b: "mediumbarrel"
+      r: "smallriflereceiver"

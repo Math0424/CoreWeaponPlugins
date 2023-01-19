@@ -1,0 +1,46 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bScope x1.5"
+    #modelID for texture
+    modelID: 1
+    #Classifier is a string
+    #2 attachments with the same classifier cannot be put on the same weapon
+    classifier: "scope"
+
+    #Used to display information
+    lore:
+      - "&ax1.5 Scope"
+
+    #Avaliable modifiers
+    #BULLET_DROP
+    #BULLET_SPEED
+    #BULLET_DAMAGE
+    #HEADSHOT_MULTIPLIER
+    #BULLET_FALLOFF
+    #BULLET_SPREAD
+    #BULLET_POWER
+    #BULLET_COUNT_PER_SHOT
+    #
+    #BURST_COUNT
+    #AMMO_COUNT
+    #RELOAD_SPEED
+    #SHOOT_SPEED
+    #
+    #ATTACHMENT_SILENCER
+    #ATTACHMENT_SCOPE
+    #ATTACHMENT_HIT_SOUND
+    #ATTACHMENT_THERMALS
+    #ATTACHMENT_NIGHT_VISION
+    #ATTACHMENT_LASER_SIGHT
+    #ATTACHMENT_ARMOR_PIERCING
+    modifiers:
+      ATTACHMENT_SCOPE: 1.5
+
+    #See Guns/Scar-H for more explanation
+    shape:
+      - "aaa"
+      - "aga"
+      - "aaa"
+    ingredients:
+      g: "spyglass"
+      a: "alloy"

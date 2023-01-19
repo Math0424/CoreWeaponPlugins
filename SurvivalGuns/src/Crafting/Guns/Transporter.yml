@@ -1,0 +1,48 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&3Transporter"
+    modelID: 18
+    ammoID: "battery"
+    fireSoundID: "ENTITY_ENDER_PEARL_THROW"
+    firePitch: 1.2
+    fireSoundRange: 2
+
+    isPrimaryGun: false
+    bulletType: TELEPORT
+    gunType: SEMI_AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 3
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 80
+    fireSpeed: 120
+
+    bulletDrop: 0.0
+    bulletSpeed: 150.0
+    bulletDamage: 0.0
+    headshotMultiplier: 1.0
+    bulletFalloff: 0.0
+    bulletSpread: 2.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_COUNT_PER_SHOT
+      - ATTACHMENT_HIT_SOUND
+      - BURST_COUNT
+      - ATTACHMENT_SILENCER
+      - AMMO_COUNT
+      - ATTACHMENT_ARMOR_PIERCING
+    shape:
+      - "aas"
+      - "lel"
+      - "rd "
+    ingredients:
+      e: "ender_eye"
+      l: "laserdiode"
+      r: "largeriflereceiver"
+      d: "infuseddiamond"
+      a: "reinforcedalloy"
+      s: "smallbarrel"

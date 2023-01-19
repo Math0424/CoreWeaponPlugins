@@ -1,0 +1,10 @@
+ammo:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AmmoSerializable
+    name: "&8.50AE"
+    id: 9
+    modelId: 201
+    material: GOLD_NUGGET
+    maxAmount: 20
+    maxStackSize: 30
+    level: 35
+    chanceOfSpawning: 1.0

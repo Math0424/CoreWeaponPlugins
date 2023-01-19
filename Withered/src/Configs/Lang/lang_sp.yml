@@ -1,0 +1,351 @@
+mensajes.errores:
+  - "&c¡No puedes hacer eso aquí!"
+  - "&c¡Por favor, espere &c {time} &c más segundos hasta realizar el comando!"
+mensajes.palabras:
+  - "&7Drop"
+  - "en el banco"
+messages.mustusepack:
+  - "&c¡Debes aceptar el paquete de recursos para jugar!"
+messages.combatlog:
+  - "&7 ¡Ahora estás en &ccombat &7 no puedes cerrar sesión!"
+  - "&7 Ya no estás en &ccombat &7 ¡puedes cerrar sesión!"
+mensajes.language:
+  - "&7 El idioma actual es: &2"
+  - "&7 Idioma cambiado a: &2"
+
+
+currency.basics:
+  - "&2 Recogido y una {cantidad} y 2 {moneda}"
+  - "&2Dropped &a {amount} &2 {currency}"
+
+
+banker.inv:
+  - "&2Dinero en el banco"
+  - "&2Deposit"
+  - "&2Withdrawal"
+banker.deposit:
+  - "&2 Depósito ... espere 5 segundos"
+  - "&cDeposit falló! te mudaste"
+  - "&2Deposit exitoso!"
+
+
+armero.inv:
+  - "&7 Adjuntos"
+
+
+events.assassination.start:
+  - "&4Assassination!"
+  - "y mata a tu objetivo para obtener una recompensa monetaria!
+ - y sigue tu brújula al objetivo "
+events.assassination.info:
+  - "&fTime para matar a tu objetivo"
+  - "&fCompass apuntando hacia tu objetivo
+ - &6 {player} "
+  - "&c¡Tu objetivo dejó el juego!"
+eventos.assassination.end:
+  - "&2 Has matado con éxito a tu objetivo"
+  - "&cSu objetivo ha muerto, ha terminado aquí"
+  - "&c¡Se te acabó el time!"
+
+events.pointcapture.start:
+  - "&eCapture el punto!"
+  - "&eBe el último en el punto al final
+ - sigue tu brújula a la ubicación "
+events.pointcapture.info:
+  - "&eTime util gana el player más cercano"
+  - "&fCompass apuntando hacia el punto"
+  - "&2 ¡Eres el player más cercano!"
+  - "&c¡Has perdido el liderato para el player más cercano!"
+events.pointcapture.end:
+  - "&2¡Eres el player más cercano!"
+  - "&cHas fallado
+ - ¡otro player estaba más cerca! "
+
+events.defend.start:
+  - "&bDefend!"
+  - "&3Fortifica tu ubicación"
+  - "¡Y mantén a la gente fuera para obtener una recompensa monetaria!"
+  - "&9Ataque!"
+  - "&9 Captura y mantén el punto del enemigo
+ - matar a todos en el sitio "
+events.defend.info:
+  - "&fTime hasta el final"
+  - "&fCompass apuntando hacia el punto"
+  - "&cPoint está bajo ataque
+ - ¡{time} segundos hasta la captura! "
+events.defend.end:
+  - "&cHas fallado! el punto fue capturado por los enemigos"
+  - "&cHas fallado! el punto estaba en manos de los enemigos"
+  - "&2 Ganas
+ - ¡Has mantenido el punto con éxito! "
+  - "Tú ganas
+ - ¡Has capturado el punto con éxito! "
+
+events.airdrop.start:
+  - "&dAirDrop!"
+  - "&5 Se dejó caer un cofre del cielo
+ - Sé el primero en llegar "
+  - "&5 ¡Se ha generado un cofre de nivel {nivel}!"
+events.airdrop.info:
+  - "&fTime util el AirDrop se ha ido"
+  - "&fCompass apuntando hacia el botín"
+eventos.airdrop.end:
+  - "&cEl AirDrop ha sido asegurado"
+
+events.weaponscache.start:
+  - "&dWeaponsCache!"
+  - "¡Y se ha descubierto un caché de armas 5A! Sé el primero en llegar"
+events.weaponscache.info:
+  - "&fTime util el caché se ha ido"
+  - "&fCompass apuntando hacia el botín"
+events.weaponscache.end:
+  - "&2The WeaponsCache ha sido asegurado"
+
+events.mechsuit.start:
+  - "&9Mechsuit!"
+  - "&9A mechsuit ha sido visto"
+events.mechsuit.info:
+  - "&fTime util el mech ha desaparecido"
+  - "&fCompass apuntando hacia el mech"
+eventos.mechsuit.end:
+  - "&2 El MechSuit ha sido recuperado"
+
+events.dropcrate.start:
+  - "&bDropCrate!"
+  - "&3A caerá en las coordenadas de tu brújula"
+events.dropcrate.info:
+  - "&fTime utiliza la caja de aterrizaje aterriza"
+  - "&fCompass apuntando hacia la caja"
+  - "&aSquad &6 {squad} &a tiene el control de DropCrate"
+  - "&6 {player} &a tiene el control de DropCrate"
+  - "&c ¡El DropCrate está en disputa!"
+events.dropcrate.end:
+  - "&cEl DropCrate ha sido asegurado"
+
+events.killcounter.start:
+  - "&cKillCount!"
+  - "¡Y 4Kill la mayoría de los playeres al final!"
+events.killcounter.info:
+  - "&fTime hasta que termine el evento"
+  - "&fCompass apuntando hacia {player}"
+events.killcounter.end:
+  - "&cKillCounter ha terminado y nadie gana"
+  - "&6 {player} &e ha ganado con la mayor cantidad de asesinatos!"
+
+events.diamond.start:
+  - "&9Endgame Diamond!"
+  - "&3¡Sé el último con el diamante para obtener una recompensa!"
+  - "&3Compass apuntando hacia el player con el diamante"
+event.diamond.diamond:
+  - "&7 Diamante del juego final"
+  - "&8 Todas las brújulas apuntan a ti"
+  - "Y mantén esto hasta que se acabe el time"
+  - "&c¡No mueras!"
+events.diamond.info:
+  - "&fTime hasta el final del juego"
+  - "&fCompass apuntando hacia {player} ¡mátalos!"
+  - "&2¡Tienes el diamante! ¡Mantente en alerta máxima!"
+events.diamond.end:
+  - "&6 {player} &e tiene el diamante. ¡Ellos ganan! ... y el juego de crestarting t-10 segundos"
+
+
+deaths.killcounter:
+  - "&2 {player} &6 está en una &2 {cantidad} &6 killstreak!"
+  - "&2 {player} &6 tiene un &2 {cantidad} &6 killstream!"
+  - "¡Dominando! &2 {player} &6 tiene una &2 {cantidad} &6 killstreak!"
+
+deaths.generic.fall:
+  - "&2 {dead} y 6 murieron"
+  - "&2 {dead} &6 fue asesinado"
+deaths.generic.explosion:
+  - "&2 {dead} &6 fue volado"
+  - "&2 {dead} &6 se voló en pedazos"
+  - "&2 {dead} &6 se desintegró"
+  - "&2 {dead} y 6 explotaron"
+  - "&2 {dead} y 6 tuvieron su cuerpo destrozado"
+
+deathss.water:
+  - "&2 {dead} y 6 olvidaron cómo nadar"
+  - "&2 {muerto} y 6 ahogado"
+deaths.suicidas:
+  - "&2 {dead} &6 decidieron terminarlo"
+  - "&2 {dead} y 6 murieron"
+deaths.blockcrush:
+  - "&2 {dead} y 6 cayeron sobre un edificio"
+  - "&2 {dead} &6 fue aplastado por un bloque"
+  - "&2 {dead} &6 fue asesinado por un bloque que cae"
+deaths.fall:
+  - "&2 {dead} &6 cayeron de un lugar alto"
+  - "&2 {dead} &6 se rompieron las piernas"
+  - "&2 {dead} &6 cayeron en una deaths horrible"
+deaths.zombie:
+  - "&2 {dead} &6 fue mordido"
+  - "&2 {dead} &6 cayeron en la plaga"
+  - "&2 {dead} &6 fue asesinado por un zombie"
+death.combatlog:
+  - "&2 {dead} &6 cerraron sesión en combate"
+
+deaths.bullet:
+  - "&2 {dead} &6 fue disparado por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {dead} &6 fue abatido por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {killer} &6 dead y 2 {dead} &6 con a &r {gun} &6"
+deaths.headshot:
+  - "&2 {dead} &6 recibió un disparo en la cabeza por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {dead} &6 cerebros fueron volados por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {killer} &6 giró y 2 {dead} &6s se convirtió en una niebla con a &r {gun} &6"
+deaths.fire:
+  - "&2 {dead} &6 fue quemado y 2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {killer} &6 quemado y 2 {muerto} &6 a un crujiente usando a &r {gun} &6"
+deaths.gun_grenade:
+  - "&2 {dead} &6 fue volado en pedazos por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {killer} &6 explotó y 2 {dead} &6 usando a &r {gun} &6"
+deaths.rocket:
+  - "&2 {dead} &6 fue volado en pedazos por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {killer} &6 aniquilados y 2 {dead} &6 usando a &r {gun} &6"
+  - "&2 {killer} &6 terminó rápidamente y 2 {dead} &6's life usando a &r {gun} &6"
+deaths.nuke:
+  - "&2 {dead} &6 fue atacado por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {killer} &6 se desintegraron y 2 {dead} &6 usando a &r {gun} &6"
+deaths.acid:
+  - "&2 {dead} &6 fue derretido por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {killer} &6 shot &2 {dead} &6 usando a &r {gun} &6"
+deaths.laser:
+  - "&2 {dead} &6 fue quemado por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {dead} &6 fue derribado por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {killer} &6 se desintegraron y 2 {dead} &6 usando a &r {gun} &6"
+deaths.electric:
+  - "&2 {dead} &6 fue domesticado por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {dead} &6 fue electrocutado por &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {killer} &6 sorprendido y 2 {dead} &6 usando a &r {gun} &6"
+deaths.zeus:
+  - "&2 {dead} &6 fue derribado y 2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {dead} &6 recibió un rayo de luz en la cara de &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {killer} &6 explotó y 2 {dead} &6 usando a &r {gun} &6"
+deaths.shield:
+  - "&2 {dead} &6 fue frito por &2 {killer} &6's shield"
+  - "&2 {dead} &6 fueron asesinados por &2 {killer} &6's shield"
+  - "&2 {killer} &6 escudo muerto y 2 {dead} &6"
+deaths.punishment:
+  - "&2 {dead} &6 murieron al intentar disparar &2 {killer} &6 usando a &r {gun} &6"
+  - "&2 {dead} &6 fue asesinado por &2 {killer} &6 por intentar matar en equipo"
+  - "&2 {killer} &6 castigado &2 {dead} &6 por intentar matar en equipo"
+deaths.runover:
+  - "&2 {dead} &6 fue atropellado por &2 {killer} &6"
+  - "&2 {dead} &6 fue golpeado y asesinado por &2 {killer} &6"
+  - "&2 {killer} &6 atropellado &2 {dead} &6"
+deaths.slam:
+  - "&2 {dead} &6 fue aplanado por &2 {killer} &6"
+  - "&2 {dead} &6 fue aplastado por &2 {killer} &6"
+  - "&2 {killer} &6 pisó y 2 {dead} &6"
+deaths.throwable_grenade:
+  - "&2 {dead} &6 fue volado por &2 {killer} &6"
+  - "&2 {dead} &6 fue volado en pedazos por &2 {killer} &6"
+  - "&2 {killer} &6 explotó y 2 {dead} &6"
+deaths.gas_grenade:
+  - "&2 {dead} &6 fue sofocado por &2 {killer} &6"
+  - "&2 {dead} y 6 pulmones fueron desintegrados por &2 {killer} y 6"
+  - "&2 {killer} y 6 gaseados y 2 {dead} y 6"
+deaths.singularity_grenade:
+  - "&2 {dead} &6 fue absorbido por el vacío por &2 {killer} &6"
+  - "&2 {dead} &6 se perdió en una singularidad debido a &2 {killer} &6"
+  - "&2 {killer} &6 arrojó &2 {dead} &6 en una singularidad"
+deaths.cluster_grenade:
+  - "&2 {dead} &6 fue volado por &2 {killer} &6"
+  - "&2 {dead} &6 murieron a causa de una granada de racimo lanzada por &2 {killer} &6"
+  - "&2 {killer} &6 explotó y 2 {dead} &6 usando una granada de racimo"
+deaths.impact_grenade:
+  - "&2 {dead} &6 fue volado por &2 {killer} &6"
+  - "&2 {dead} &6 murieron a causa de una granada de impacto lanzada por &2 {killer} &6"
+  - "&2 {killer} &6 arrojaron una granada de impacto en &2 {dead} y 6s cara"
+
+
+items.info:
+  - "y fInfo"
+  - "&5Solo puedes retener"
+  - "&4 primary {primary}"
+  - "&5 y &4 {secondary} secondarys"
+items.tracker:
+  - "&7Radio"
+  - "&5 Tipo de conversación cambiado a &a {talktype}"
+items.compass:
+  - "&7Compass"
+  - "&fNo hay eventos en curso"
+  - "&fTime hasta el próximo evento global"
+artículos.watch:
+  - "&7Watch"
+  - "&f ¿Cuánto time hasta el próximo evento"
+
+
+structure.hacking:
+  - "&7 Hacking en progreso {time} segundos restantes"
+  - "&2Hack tuvo éxito! La estructura ahora es tuya"
+  - "&cHacking falló! te mudaste"
+structure.tools:
+  - "Estructura"
+  - "&cNo se puede recoger la estructura porque el inventario está lleno"
+structure.info:
+  - "&cStructure no se puede encontrar! falta el esquema?"
+  - "&cStructure está flotando!"
+  - "&cStructure es demasiado profundo en el suelo!"
+  - "&cStructure no puede caber aquí!"
+
+
+mechsuit.info:
+  - "&7 Mech entrante"
+  - "&7Exiting Mech"
+  - "Salida"
+  - "&cWarning mech baja salud"
+mechsuit.entering:
+  - "&7Entering mech t-5 segundos ..."
+  - "&c ¡No se pudo ingresar al mech!"
+  - "&cNo puedo entrar en mech con diamante!"
+
+
+Armor.fail:
+  - "&cYour {armadura} se están quedando sin combustible!"
+  - "&cYour {armadura} se han quedado sin combustible!"
+
+deployable.place.fail:
+  - "&cEncroaching otra autorización desplegable!"
+deployable.pickup.fail:
+  - "&cInventario completo!"
+  - "&cDeployable está deshabilitado!"
+  - "&cDeployable está bajo ataque!"
+despliegue.hacking:
+  - "&7 Hacking en progreso {time} segundos restantes"
+  - "&2Hack tuvo éxito! El despliegue ahora es tuyo"
+  - "&cHacking falló! te mudaste"
+
+
+squad.messages.friendlyfire:
+  - "&c NO dispare a sus propios compañeros de equipo"
+squad.messages.promoted:
+  - "&2: Has sido ascendido a líder de squad de &6 {squad}"
+squad.messages.leave:
+  - "&cHas dejado el squad"
+squad.messages.left:
+  - "&6 {player} &2 han abandonado el equipo"
+squad.messages.join:
+  - "&6 {player} &2 se ha unido a tu squad"
+squad.messages.joined:
+  - "&2 Te has unido al squad y 6 {squad}"
+squad.messages.create:
+  - "&2Squad &6 {squad} &2 creado"
+squad.messages.disband:
+  - "&cSquad &6 {squad} &c ha sido disuelto"
+
+squad.messages.invite:
+  - "&6 {player} &2 te ha invitado a unirte al squad y 6 {squad}"
+  - "&c¡Ya has invitado a este player!"
+
+squad.messages.invites:
+  - "&2Permitir todas las invitaciones"
+  - "&2Denying todas las invitaciones"
+  - "&2Cleared todas las invitaciones"
+squad.messages.invited:
+  - "&2Invited &6 {player} &2para unirse al equipo y 6 {equipo}"
+
+squad.messages.command:
+  - "&cYa estás en un squad!"
+  - "&c¡No estás en un squad!"
+  - "&cNo eres líder de squad!"

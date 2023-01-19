@@ -1,0 +1,29 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7AK-47"
+    ammoId: 4
+    modelId: 2
+    isPrimaryGun: true
+    fireType: AUTOMATIC
+    fireRate: 4
+    reloadRate: 2
+    maxAmmoCount: 30
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: LARGE_AUTOMATIC
+    fireVolume: 300
+    firePitch: 0.9
+    bulletCount: 1
+    bulletDamage: 3.0
+    bulletHeadShotDamage: 4.0
+    bulletFalloff: 0.05
+    bulletSpread: 25
+    bulletSpeed: 3.2
+    bulletDrop: 0.3
+    bulletType: REGULAR
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    startingAttachments:
+    level: 16
+    chanceOfSpawning: 3.0

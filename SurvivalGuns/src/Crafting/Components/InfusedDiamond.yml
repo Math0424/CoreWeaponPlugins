@@ -1,0 +1,13 @@
+component:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.ComponentSerializable
+    name: "&cInfusedDiamond"
+    modelId: 318
+    count: 1
+    shape:
+      - "xxx"
+      - "xdy"
+      - "xxx"
+    ingredients:
+      x: "redstone_block"
+      d: "diamond"
+      y: "glass_pane"

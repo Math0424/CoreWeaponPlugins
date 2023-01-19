@@ -1,0 +1,12 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bLongbarrel"
+    material: IRON_NUGGET
+    modelId: 11
+    lore:
+      - '&9+50 Bullet range'
+    classifier: LONGBARREL
+    modifiers:
+      - BULLET_FALLOFF:-0.2
+    level: 36
+    chanceOfSpawning: 1.0

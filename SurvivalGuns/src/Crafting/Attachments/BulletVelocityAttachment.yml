@@ -1,0 +1,20 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bBullletVelocity"
+    modelID: 17
+    classifier: "bullet-modifier"
+    lore:
+      - '&a+0.2 Bullet speed'
+      - '&c-0.1 Bullet drop'
+    modifiers:
+      BULLET_DROP: 0.1
+      BULLET_SPEED: 0.2
+
+    shape:
+      - "taa"
+      - "tbb"
+      - "taa"
+    ingredients:
+      t: "tnt"
+      b: "largebarrel"
+      a: "reinforcedalloy"

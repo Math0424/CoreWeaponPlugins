@@ -1,0 +1,19 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bLaserTarget"
+    modelID: 10
+    classifier: "laser"
+    lore:
+      - '&9See a line where your aiming'
+    modifiers:
+      ATTACHMENT_LASER_SIGHT: 150.0
+
+    shape:
+      - "aaa"
+      - "rds"
+      - "aaa"
+    ingredients:
+      d: "lightdiode"
+      s: "scope x2"
+      r: "redstone"
+      a: "alloy"

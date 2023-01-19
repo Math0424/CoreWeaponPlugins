@@ -1,0 +1,34 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&9Taser"
+    ammoId: 11
+    modelId: 29
+    isPrimaryGun: false
+    fireType: AUTOMATIC
+    fireRate: 10
+    reloadRate: 50
+    maxAmmoCount: 1
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: ELECTRIC_HIT
+    fireVolume: 100
+    firePitch: 1.3
+    bulletCount: 1
+    bulletDamage: 12.0
+    bulletHeadShotDamage: 12.0
+    bulletFalloff: 0.0
+    bulletSpread: 1
+    #distance
+    bulletSpeed: 20.0
+    bulletDrop: 0.0
+    bulletType: ELECTRIC
+    illegalAttachments:
+      - SILENCER
+      - LONGBARREL
+      - ARMORPENETRATION
+      - HEADSHOTMULTIPLIER
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    startingAttachments:
+    level: 5
+    chanceOfSpawning: 3.0

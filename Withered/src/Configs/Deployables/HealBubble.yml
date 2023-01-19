@@ -1,0 +1,16 @@
+armor:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.DeployableSerializable
+    name: "&cHealBubble"
+    modelId: 1
+    #types
+    #SHIELD
+    #PLAYER
+    #HEAL
+    type: HEAL
+    maxHealth: 100.0
+    range: 5.0
+    deploySound: BLOCK_ANVIL_FALL
+    deployPitch: 1
+    deployVolume: 1
+    level: 15
+    chanceOfSpawning: 1.0

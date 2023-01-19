@@ -1,0 +1,47 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7M32"
+    modelID: 23
+    ammoID: "HE round"
+    fireSoundID: "gun_launcher_shoot"
+    firePitch: 1.4
+    fireSoundRange: 200
+
+    isPrimaryGun: false
+    bulletType: EXPLOSIVE
+    gunType: SEMI_AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 6
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 100
+    fireSpeed: 10
+
+    bulletDrop: 0.2
+    bulletSpeed: 1.5
+    bulletDamage: 0.0
+    headshotMultiplier: 1.0
+    bulletFalloff: 0.0
+    bulletSpread: 10.0
+    bulletPower: 3.5
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_COUNT_PER_SHOT
+      - BURST_COUNT
+      - ATTACHMENT_SILENCER
+      - AMMO_COUNT
+      - ATTACHMENT_HIT_SOUND
+      - ATTACHMENT_ARMOR_PIERCING
+    shape:
+      - " a "
+      - "bcl"
+      - "ra "
+    ingredients:
+      l: "largetube"
+      c: "mediumguncomponent"
+      a: "alloy"
+      r: "mediumriflereceiver"
+      b: "mediumgunbody"

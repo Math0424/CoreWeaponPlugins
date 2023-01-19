@@ -1,0 +1,21 @@
+grenade:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GrenadeSerializable
+    name: "&8Smoke Grenade"
+    modelId: 107
+    grenadeType: SMOKE
+
+    soundID: "UI_BUTTON_CLICK"
+    throwPitch: 1.0
+    throwVolume: 3.0
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 5.0
+    shape:
+      - "axa"
+      - "sgs"
+      - "aaa"
+    ingredients:
+      g: "grenade"
+      a: "alloy"
+      s: "charcoal"
+      x: "gunpowder"

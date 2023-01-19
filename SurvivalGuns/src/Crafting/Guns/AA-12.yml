@@ -1,0 +1,44 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7AA-12"
+    modelID: 1
+    ammoID: "12ga Buckshot"
+    fireSoundID: "gun_shotgun_medium_shoot"
+    firePitch: 1.0
+    fireSoundRange: 300
+
+    isPrimaryGun: true
+    bulletType: REGULAR
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 15
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 8
+    fireSpeed: 8
+
+    bulletDrop: 0.3
+    bulletSpeed: 2.5
+    bulletDamage: 5.0
+    headshotMultiplier: 1.0
+    bulletFalloff: 0.1
+    bulletSpread: 40.0
+    bulletPower: 0.0
+    bulletCountPerShot: 5
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - ATTACHMENT_SILENCER
+    shape:
+      - " aa"
+      - "pcb"
+      - "raa"
+    ingredients:
+      p: "mediumgunbody"
+      c: "mediumguncomponent"
+      a: "hardenedalloy"
+      b: "largetube"
+      r: "mediumriflereceiver"

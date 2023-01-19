@@ -1,0 +1,43 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7UMP45"
+    modelID: 19
+    ammoID: "9mm"
+    fireSoundID: "gun_automatic_small_shoot"
+    firePitch: 0.8
+    fireSoundRange: 150
+
+    isPrimaryGun: true
+    bulletType: REGULAR
+    gunType: BURST_FIRE
+    maxBurstCount: 5
+    maxShotCount: 25
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 1
+    fireSpeed: 2
+
+    bulletDrop: 0.2
+    bulletSpeed: 2.0
+    bulletDamage: 2.8
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.1
+    bulletSpread: 15.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BULLET_COUNT_PER_SHOT
+    shape:
+      - "aaa"
+      - "pcb"
+      - "r  "
+    ingredients:
+      p: "smallgunbody"
+      c: "mediumguncomponent"
+      a: "alloy"
+      b: "mediumbarrel"
+      r: "mediumpistolreceiver"

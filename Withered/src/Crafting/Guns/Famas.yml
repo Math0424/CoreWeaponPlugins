@@ -1,0 +1,29 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7Famas"
+    ammoId: 1
+    modelId: 24
+    isPrimaryGun: true
+    fireType: AUTOMATIC
+    fireRate: 5
+    reloadRate: 5
+    maxAmmoCount: 25
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: MEDIUM_AUTOMATIC
+    fireVolume: 300
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 3.0
+    bulletHeadShotDamage: 4.0
+    bulletFalloff: 0.1
+    bulletSpread: 20
+    bulletSpeed: 3.0
+    bulletDrop: 0.2
+    bulletType: REGULAR
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    startingAttachments:
+    level: 20
+    chanceOfSpawning: 3.0

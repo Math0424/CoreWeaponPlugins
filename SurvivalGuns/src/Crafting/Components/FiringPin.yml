@@ -1,0 +1,13 @@
+component:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.ComponentSerializable
+    name: "&5FiringPin"
+    modelId: 323
+    count: 1
+    shape:
+      - "  a"
+      - "xxf"
+      - "  a"
+    ingredients:
+      x: "iron_ingot"
+      f: "flint"
+      a: "alloy"

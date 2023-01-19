@@ -1,0 +1,36 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7RocketLauncher"
+    ammoId: 6
+    modelId: 14
+    isPrimaryGun: false
+    fireType: SEMI_AUTOMATIC
+    fireRate: 10
+    reloadRate: 150
+    maxAmmoCount: 1
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: ROCKET_LAUNCHER
+    fireVolume: 200
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 1.0
+    bulletHeadShotDamage: 1.0
+    bulletFalloff: 0.0
+    bulletSpread: 30
+    bulletSpeed: 4.0
+    bulletDrop: 0.3
+    bulletType: ROCKET
+    illegalAttachments:
+      - SILENCER
+      - ARMORPENETRATION
+      - HEADSHOTMULTIPLIER
+      - MAXLOAD
+      - EXTENDEDMAG
+      - TAPEDMAG
+      - LONGBARREL
+      - HITNOTIFY
+    startingAttachments:
+    explosiveYield: 5.0
+    level: 49
+    chanceOfSpawning: 3.0

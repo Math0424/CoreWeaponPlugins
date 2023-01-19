@@ -1,0 +1,47 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&2AcidGun"
+    modelID: 26
+    ammoID: "Acid Canister"
+    fireSoundID: "gun_pistol_small_shoot_acid"
+    firePitch: 1.0
+    fireSoundRange: 150
+
+    isPrimaryGun: false
+    bulletType: ACID
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 1
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 20
+    fireSpeed: 20
+
+    bulletDrop: 0.3
+    bulletSpeed: 2.5
+    bulletDamage: 3.0
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.1
+    bulletSpread: 30.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - ATTACHMENT_SILENCER
+      - BULLET_COUNT_PER_SHOT
+      - AMMO_COUNT
+      - ATTACHMENT_ARMOR_PIERCING
+      - BURST_COUNT
+    shape:
+      - "  a"
+      - "cbs"
+      - "r  "
+    ingredients:
+      s: "slime_block"
+      r: "smallpistolreceiver"
+      a: "alloy"
+      b: "smallbarrel"
+      c: "smallguncomponent"

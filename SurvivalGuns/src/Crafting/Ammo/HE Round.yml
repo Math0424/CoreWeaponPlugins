@@ -1,0 +1,13 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&8HE Round"
+    modelId: 212
+    bulletCount: 5
+    shape:
+      - " t "
+      - " c "
+      - "ggg"
+    ingredients:
+      g: "gunpowder"
+      c: "hardenedbulletcase"
+      t: "tnt"

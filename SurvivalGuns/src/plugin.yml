@@ -1,0 +1,14 @@
+name: SurvivalGuns
+version: 1.1.6
+author: Math0424
+main: me.Math0424.SurvivalGuns.SurvivalGuns
+api-version: "1.17"
+depend: [CoreWeapons]
+softdepend: [Multiverse-Core]
+commands:
+  survivalguns:
+    description: interface for SurvivalGuns
+
+permissions:
+  survivalguns.commands.give:
+    default: op

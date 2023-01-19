@@ -1,0 +1,46 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&cLaserShotGun"
+    modelID: 8
+    ammoID: "battery"
+    fireSoundID: "gun_laser_shoot"
+    firePitch: 0.8
+    fireSoundRange: 120
+
+    isPrimaryGun: false
+    bulletType: LASER
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 8
+
+    shotsAddedPerReloadCycle: 8
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 40
+    fireSpeed: 10
+
+    bulletDrop: 0.0
+    bulletSpeed: 20.0
+    bulletDamage: 1.5
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.0
+    bulletSpread: 7.0
+    bulletPower: 0.0
+    bulletCountPerShot: 8
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - ATTACHMENT_SILENCER
+      - ATTACHMENT_ARMOR_PIERCING
+    shape:
+      - "agb"
+      - "lcb"
+      - "r b"
+    ingredients:
+      a: "mediumgunbody"
+      c: "mediumguncomponent"
+      b: "smalltube"
+      g: "gold_ingot"
+      r: "mediumriflereceiver"
+      l: "laserdiode"

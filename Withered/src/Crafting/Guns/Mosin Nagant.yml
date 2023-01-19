@@ -1,0 +1,29 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7Mosin-Nagant"
+    ammoId: 5
+    modelId: 20
+    isPrimaryGun: false
+    fireType: SEMI_AUTOMATIC
+    fireRate: 40
+    reloadRate: 20
+    maxAmmoCount: 1
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: MEDIUM_PISTOL
+    fireVolume: 200
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 10.0
+    bulletHeadShotDamage: 13.0
+    bulletFalloff: 0.0
+    bulletSpread: 5
+    bulletSpeed: 4.5
+    bulletDrop: 0.2
+    bulletType: REGULAR
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    startingAttachments:
+    level: 16
+    chanceOfSpawning: 3.0

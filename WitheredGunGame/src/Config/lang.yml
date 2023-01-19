@@ -1,0 +1,26 @@
+#Note do not use ' inside the ' text here '
+
+util.cannotdothat: "You cannot do that!"
+util.killstreak: "&d{player} is on a killstreak of {kills}!"
+
+arena.full: "&cCannot join full arena!"
+arena.ending: "&cGame is ending!"
+arena.minplayers: "&cNot enough players to continue!"
+arena.gameover: "&e{winner} wins! game ending in 10 seconds"
+arena.mvp: "&e{player} is MVP!"
+arena.countdown: "&e{time} seconds till game start."
+
+arena.player.final: "&d{player} is on the last kill!"
+arena.player.join: "&e{player} has joined the game!"
+arena.player.leave: "&e{player} has left the game!"
+
+death.bullet: "&2{killed} &6was shot by &2{killer} &6using a {gun}"
+death.headshot: "&2{killed} &6was shot in the head by &2{killer} &6using a {gun}"
+death.laser: "&2{killed} &6was fried by &2{killer}&6 using a laser!"
+death.flamethrower: "&2{killed} &6was fried by &2{killer}!"
+death.acid: "&2{killed} &6was melted by &2{killer} using a {gun}!"
+
+death.generic: "&2{killed} &6died"
+death.genericexplosion: "&2{killed} &6died to an explosion"
+death.genericfall: "&2{killed} &6fell to their death"
+death.genericfallescape: "&2{killed} &6fell to their death while escaping {killer}"

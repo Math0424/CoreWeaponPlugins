@@ -1,0 +1,12 @@
+component:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.ComponentSerializable
+    name: "&5SmallBarrel"
+    modelId: 307
+    count: 1
+    shape:
+      - "yyy"
+      - "xxx"
+      - "yyy"
+    ingredients:
+      y: "hardenedalloy"
+      x: "smalltube"

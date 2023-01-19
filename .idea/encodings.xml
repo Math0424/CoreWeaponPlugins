@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CoreWeapons/src/me/Math0424/CoreWeapons/NMS" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CoreWeapons/src/me/Math0424/CoreWeapons/NMS/Packets" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/CoreWeapons/src/me/Math0424/CoreWeapons/Sound/Types/AdvancedSound.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CoreWeapons/src/me/Math0424/CoreWeapons/Sound/Types/EasyRangedSound.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CoreWeapons/src/me/Math0424/CoreWeapons/Sound/Types/RangedSound.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CoreWeapons/src/me/Math0424/CoreWeapons/Sound/Types/SimpleSound.java" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1252" />
+  </component>
+</project>

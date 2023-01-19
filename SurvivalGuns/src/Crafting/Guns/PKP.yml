@@ -1,0 +1,44 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7PKP"
+    modelID: 12
+    ammoID: "7.62x39mm"
+    fireSoundID: "gun_automatic_medium_shoot"
+    firePitch: 1.8
+    fireSoundRange: 300
+
+    isPrimaryGun: true
+    bulletType: REGULAR
+    gunType: BURST_FIRE
+    maxBurstCount: 50
+    maxShotCount: 300
+
+    shotsAddedPerReloadCycle: 2
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 5
+    fireSpeed: 1
+
+    bulletDrop: 0.2
+    bulletSpeed: 2.5
+    bulletDamage: 1.5
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.05
+    bulletSpread: 40.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BULLET_COUNT_PER_SHOT
+    shape:
+      - " a "
+      - "pcl"
+      - "raf"
+    ingredients:
+      l: "reinforcedbarrel"
+      c: "largeguncomponent"
+      r: "largeriflereceiver"
+      a: "hardenedalloy"
+      f: "foregrip"
+      p: "reinforcedgunbody"

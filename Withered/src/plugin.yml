@@ -1,0 +1,34 @@
+name: Withered
+version: 2.0.2
+author: Math0424
+main: me.Math0424.Withered.Withered
+api-version: "1.16"
+depend: [WitheredAPI]
+softdepend: [Multiverse-Core]
+commands:
+  squad:
+    description: use the squad interface
+  withered:
+    description: use the admin withered interface
+  witheredsetup:
+    description: use the withered admin setup interface
+  suicide:
+    description: kill yourself
+  witheredLang:
+    description: change visual language
+
+permissions:
+  withered.squad.create:
+    default: not op
+  withered.squad.use:
+    default: not op
+  withered.commands.setup:
+    default: op
+  withered.commands.activate:
+    default: op
+  withered.commands.summon:
+    default: op
+  withered.commands.give:
+    default: op
+  withered.chat.admin:
+    default: op

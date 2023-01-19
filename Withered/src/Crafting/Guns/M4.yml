@@ -1,0 +1,29 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7M4"
+    ammoId: 1
+    modelId: 9
+    isPrimaryGun: true
+    fireType: AUTOMATIC
+    fireRate: 4
+    reloadRate: 2
+    maxAmmoCount: 32
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: LARGE_AUTOMATIC
+    fireVolume: 300
+    firePitch: 1.3
+    bulletCount: 1
+    bulletDamage: 3.0
+    bulletHeadShotDamage: 4.0
+    bulletFalloff: 0.02
+    bulletSpread: 20
+    bulletSpeed: 3.6
+    bulletDrop: 0.3
+    bulletType: REGULAR
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    startingAttachments:
+    level: 32
+    chanceOfSpawning: 3.0

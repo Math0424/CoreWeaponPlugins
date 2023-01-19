@@ -1,0 +1,16 @@
+grenade:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GrenadeSerializable
+    name: "&2GasGrenade"
+    material: SLIME_BALL
+    modelId: 104
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 5.0
+    grenadeType: GAS
+    throwSound: UI_BUTTON_CLICK
+    throwPitch: 1.0
+    throwVolume: 3
+    maxStackSize: 10
+    maxAmount: 5
+    level: 20
+    chanceOfSpawning: 1.0

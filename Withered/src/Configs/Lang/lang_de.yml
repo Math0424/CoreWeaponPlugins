@@ -1,0 +1,359 @@
+#Translator "jj Modz#8375"
+
+messages.errors:
+  - "&cDas kannst du hier nicht machen!"
+  - "&cBitte warten Sie &c{time}&c weitere Sekunden, bis Sie diesen Befehl ausführen!"
+messages.words:
+  - "&7Drop"
+  - "in bank"
+messages.mustusepack:
+  - "&cSie müssen das Ressourcenpaket akzeptieren, um spielen zu können!"
+messages.combatlog:
+  - "&7Sie befinden sich jetzt in &ccombat &7 und können sich möglicherweise nicht abmelden!"
+  - "&7Sie befinden sich nicht mehr in &ccombat &7 und können sich abmelden!"
+messages.language:
+  - "&7Aktuelle Sprache ist: &2"
+  - "&7Geänderte Sprache zu: &2"
+
+
+currency.basics:
+  - "&2Aufgehoben &a{amount}&2 {currency}"
+  - "&2Fallen gelassen &a{amount}&2 {currency}"
+
+
+banker.inv:
+  - "&2Geld aud der Bank"
+  - "&2Einzahlen"
+  - "&2Auszahlen"
+banker.deposit:
+  - "&2Wird eingezahlt warte 5 sekunden..."
+  - "&cEinzahlung fehlgeschlagen! du hast dich bewegt"
+  - "&2Einzahlung erfolgreich
+!"
+
+
+gunsmith.inv:
+  - "&7Attachments"
+
+
+events.assassination.start:
+  - "&4Ermordung!"
+  - "&cTöte dein Ziel für eine Geld Belohnung!
+ - &cFolgen Sie Ihrem Kompass zum Ziel"
+events.assassination.info:
+  - "&fZeit, dein Ziel zu töten"
+  - "&fKompass zeigt auf Ihr Ziel
+ - &6{player}"
+  - "&cIhr Ziel hat das Spiel verlassen!"
+events.assassination.end:
+  - "&2Sie haben Ihr Ziel erfolgreich getötet"
+  - "&cYUnser Ziel ist gestorben. Du bist hier fertig."
+  - "&cDu hast keine Zeit mehr!"
+
+events.pointcapture.start:
+  - "&eNehmen Sie den Punkt ein!"
+  - "&eSei der letzte am Punkt am Ende
+ - Folgen Sie Ihrem Kompass zum Ort"
+events.pointcapture.info:
+  - "&eDie Zeit, in der der nächste Spieler gewinnt"
+  - "&fKompass zeigt auf den Punkt"
+  - "&2Du bist der nähste Spieler!"
+  - "&cSie haben die Führung für den nähsten Spieler verloren!"
+events.pointcapture.end:
+  - "&2Du hast den punkt eingenommen"
+  - "&cDu hast den punkt nicht eingenommen
+ - ein anderer Spieler war näher!"
+
+events.defend.start:
+  - "&bVerteidigen!"
+  - "&3Stärken Sie Ihren Standort
+ - und Halten sie Feindliche spieler ab für mehr Geld!"
+  - "&9Angriff"
+  - "&9Erobere und halte den Punkt vom Feind fern
+ - töte alle vor Ort"
+events.defend.info:
+  - "&fZeit bis zum Ende"
+  - "&fKompass zeigt auf den Punkt"
+  - "&cPunkt wird angegriffen
+ - {time} Sekunden bis zur Übernahme!"
+events.defend.end:
+  - "&cDu hast versagt! Der Punkt wurde von den Feinden erobert"
+  - "&cDu hast versagt! Der Punkt wurde von den Feinden gehalten"
+  - "&2You win
+ - Sie haben den Punkt erfolgreich gehalten!"
+  - "You win
+ - Sie haben den Punkt erfolgreich Übernommen!"
+
+events.airdrop.start:
+  - "&dAirDrop!"
+  - "&5Eine Truhe wurde vom Himmel fallen gelassen
+ - Sei der Erste, der dazu kommt"
+  - "&5Eine Kiste mit {level} ist erschienen !"
+events.airdrop.info:
+  - "&fDie Zeit von dem AirDrop ist vorbei"
+  - "&fDer Kompass zeigt auf die Beute"
+events.airdrop.end:
+  - "&cDer AirDrop wurde gesichert"
+
+events.weaponscache.start:
+  - "&dWaffenSpawn!"
+  - "&5Ein Waffen-Spawn wurde entdeckt! Sei der Erste, der dazu kommt"
+events.weaponscache.info:
+  - "&fZeit für den Waffen-Spawn ist vorüber"
+  - "&fKompass zeigt auf die Beute"
+events.weaponscache.end:
+  - "&2Der Waffen-Spawn wurde gesichert."
+
+events.mechsuit.start:
+  - "&9Mechanischer Anzug!"
+  - "&9Ein Mechanischer Anzug wurde entdeckt"
+events.mechsuit.info:
+  - "&fDie Zeit, in der der Mech verschwunden ist"
+  - "&fKompass zeigt auf den Mech"
+events.mechsuit.end:
+  - "&2Der Mechanische-Anzug wurde abgerufen."
+
+events.dropcrate.start:
+  - "&bKiste Fällt!"
+  - "&3Kiste fällt an die Koordinaten, sie sind an Ihrem Kompass sichtbar"
+events.dropcrate.info:
+  - "&fDie Zeit bist die Kiste Herab Fällt"
+  - "&fKompass zeigt auf die Kiste"
+  - "&aSquad &6{squad}&a hat die Kontrolle über die Kiste"
+  - "&6{player}&a hat die Kontrolle über die Kiste"
+  - "&cDie Kiste ist umstritten!"
+events.dropcrate.end:
+  - "&cDie Kiste wurde gesichert."
+
+events.killcounter.start:
+  - "&cKillCount!"
+  - "&4Töte bis zum Ende die meisten Spieler!"
+events.killcounter.info:
+  - "&fZeit bis zum Ende des Ereignisses"
+  - "&fKompass zeigt in Richtung {player}"
+events.killcounter.end:
+  - "&cKillCounter ist beendet und niemand gewinnt"
+  - "&6{player}&e hat mit den meisten Kills gewonnen!"
+
+events.diamond.start:
+  - "&9Endgame Diamond!"
+  - "&3Sei der Letzte mit dem Diamanten für einen a &bGroßen&r&3 gewinn!"
+  - "&3Kompass zeigt auf den Spieler mit dem Diamanten "
+event.diamond.diamond:
+  - "&7Endgame Diamond"
+  - "&8Alle Kompasse zeigen auf Dich"
+  - "&8halte dies, bis die Zeit abgelaufen ist"
+  - "&cStirb nicht!"
+events.diamond.info:
+  - "&fZeit bis zum Ende des Spiels"
+  - "&fKompass zeigt in Richtung {player} töte ihm!"
+  - "&2Du hast den Diamanten! Bleibe in höchster Alarmbereitschaft!"
+  - "&3Diamant übertragen auf &9{player}"
+events.diamond.end:
+  - "&6{player}&e hält den Diamanten! sie gewinnen! ... &crestarte-Spiel t-10 Sekunden"
+
+
+deaths.killcounter:
+  - "&2{player}&6 ist auf einer &2{amount}&6 killstreak!"
+  - "&2{player}&6 ist auf einem &2{amount}&6 killstream!"
+  - "Dominating! &2{player}&6 hat eine &2{amount}&6 killstreak!"
+
+deaths.generic.fall:
+  - "&2{dead}&6 gestorben"
+  - "&2{dead}&6 wurde getötet"
+deaths.generic.explosion:
+  - "&2{dead}&6 wurde gesprengt"
+  - "&2{dead}&6 wurde in Stücke gerissen"
+  - "&2{dead}&6 wurde aufgelöst"
+  - "&2{dead}&6 exploded"
+  - "&2{dead}&6 hatte ihren Körper in Stücke gerissen"
+
+deaths.water:
+  - "&2{dead}&6 vergessen, wie man schwimmt"
+  - "&2{dead}&6 ertrunken"
+deaths.suicide:
+  - "&2{dead}&6 beschlossen, es zu beenden"
+  - "&2{dead}&6 ist gestorben"
+deaths.block_crush:
+  - "&2{dead}&6 ein Gebäude ist auf sie gefallen"
+  - "&2{dead}&6 wurde von einem Block zerquetscht"
+  - "&2{dead}&6 wurde von einem fallenden Block getötet"
+deaths.fall:
+  - "&2{dead}&6 fiel von einem hohen Platz"
+  - "&2{dead}&6 brach sich die Beine"
+  - "&2{dead}&6 fiel in einen schrecklichen Tod"
+deaths.zombie:
+  - "&2{dead}&6 wurde gebissen"
+  - "&2{dead}&6 Infizierte sich mit der Pest"
+  - "&2{dead}&6 wurde von einem Zombie getötet"
+deaths.combatlog:
+  - "&2{dead}&6 im Kampf abgemeldet."
+
+deaths.bullet:
+  - "&2{dead}&6 wurde erschossen von &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2{dead}&6 wurde niedergeschossen von &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2Der killer: {killer}&6hat den spieler: &2{dead}&6 getötet mit der Waffe: &r{gun}&6"
+deaths.headshot:
+  - "&2{dead}&6 wurde von &2{killer} &6in den Kopf geschossen mit der Waffe: &r{gun}&6"
+  - "&2{dead}&6 Gehirne wurden von &2{killer} &6ausgeblasen mit der waffe: &r{gun}&6"
+  - "&2Der killer: {killer}&6 verdreht &2{dead}&6s Kopfe im Nebel mit der Waffe: &r{gun}&6"
+deaths.fire:
+  - "&2{dead}&6 wurde verbrannt von &2{killer}&6 mit der waffe: &r{gun}&6"
+  - "&2Der killer: {killer}&6 verbrennt &2{dead}&6 zu einem knusprigen Stück Fleisch mit der Waffe: &r{gun}&6"
+deaths.gun_grenade:
+  - "&2{dead}&6 wurde in Stücke gerissen von &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2Der killer: {killer}&6 Sprengte &2{dead}&6 mit der Waffe: &r{gun}&6in die Luft"
+deaths.rocket:
+  - "&2{dead}&6 wurde in Stücke gerissen von &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2Der killer: {killer}&6 vernichtete &2{dead}&6 mit der waffe: &r{gun}&6"
+  - "&2Der killer: {killer}&6 beendete schnell &2{dead}&6's Leben mit der Waffe: &r{gun}&6"
+deaths.nuke:
+  - "&2{dead}&6 wurde ge-nuked von &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2Der killer: {killer}&6 ließ &2{dead}&6 zerfallen mit der Waffe: &r{gun}&6"
+deaths.acid:
+  - "&2{dead}&6 wurde geschmolzen durch &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2Der killer: {killer}&6 erschoss &2{dead}&6 mit der Waffe: &r{gun}&6"
+deaths.laser:
+  - "&2{dead}&6 wurde verbrannt von &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2{dead}&6 wurde gekürzt von &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2Der killer: {killer}&6 ließ &2{dead}&6 zerfallen mit der Waffe: &r{gun}&6"
+deaths.electric:
+  - "&2{dead}&6 wurde geTasert von &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2{dead}&6 wurde getötet mit einem Stromschlag von &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2Der killer: {killer}&6 schockt den Spieler &2{dead}&6 mit der Waffe: &r{gun}&6"
+deaths.zeus:
+  - "&2{dead}&6 wurde niedergeschlagen von &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2{dead}&6 habe einen Lichtblitz ins Gesicht bekommen von &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2Der killer:{killer}&6 ließ &2{dead}&6 explodieren mit der Waffe: &r{gun}&6"
+deaths.shield:
+  - "&2{dead}&6 wurde gebraten von: &2{killer}&6's Schild"
+  - "&2{dead}&6 wurde getötet von: &2{killer}&6's Schild"
+  - "&2Das Schild von: {killer}&6 tötete &2{dead}&6"
+deaths.punishment:
+  - "&2{dead}&6 starb beim Versuch zu schießen &2{killer}&6 mit der Waffe: &r{gun}&6"
+  - "&2{dead}&6 wurde getötet von &2{killer}&6 für den Versuch, Teammitglieder zu töten"
+  - "&2Der spieler: {killer}&6 wurde bestraft für: &2{dead}&6 fürden Versuch, Teammitglieder zu töten"
+deaths.runover:
+  - "&2{dead}&6 wurde überfahren von: &2{killer}&6"
+  - "&2{dead}&6 wurde getroffen und getötet von: &2{killer}&6"
+  - "&2Der killer: {killer}&6 hat &2{dead}&6 überfahren"
+deaths.slam:
+  - "&2{dead}&6 wurde abgeflacht von: &2{killer}&6"
+  - "&2{dead}&6 wurde zerquetscht von: &2{killer}&6"
+  - "&2Der killer:{killer}&6 trat auf &2{dead}&6 drauf"
+deaths.throwable_grenade:
+  - "&2{dead}&6 wurde gesprengt von: &2{killer}&6"
+  - "&2{dead}&6 wurde in Stücke gerissen von: &2{killer}&6"
+  - "&2Der killer: {killer}&6 hat &2{dead}&6 in die Luft gesprengt"
+deaths.gas_grenade:
+  - "&2{dead}&6 wurde erstickt von: &2{killer}&6"
+  - "&2{dead}&6 Lungen wurden dadurch aufgelöst &2{killer}&6"
+  - "&2Der killer: {killer}&6 vergast &2{dead}&6"
+deaths.singularity_grenade:
+  - "&2{dead}&6 wurde in die Leere gesaugt von: &2{killer}&6"
+  - "&2{dead}&6 ging in einer Singularität verloren wegen &2{killer}&6"
+  - "&2Der killer: {killer}&6 warf &2{dead}&6 in eine Singularität"
+deaths.cluster_grenade:
+  - "&2{dead}&6 wurde gesprengt von &2{killer}&6"
+  - "&2{dead}&6 starb an einer geworfenen Clustergranate von: &2{killer}&6"
+  - "&2Der killer: {killer}&6 sprengte &2{dead}&6 mit einer cluster granate in die Luft "
+deaths.impact_grenade:
+  - "&2{dead}&6 wurde gesprengt von: &2{killer}&6"
+  - "&2{dead}&6 starb an einer geworfenen IMPACT-Granate von &2{killer}&6"
+  - "&2Der killer: {killer}&6 warf eine IMPACT-Granate ins Gesicht von: &2{dead}&6"
+deaths.incineration_grenade:
+  - "&2{dead}&6 wurde verbrannt von: &2{killer}&6"
+  - "&2{dead}&6 starb an einer Verbrennungsgranate, die geworfen wurde von: &2{killer}&6"
+  - "&2der killer: {killer}&6 warf eine Verbrennungsgranate unters &2{dead}&6s Füße"
+
+
+items.info:
+  - "&fInfo"
+  - "&5Sie können nur halten"
+  - "&4{primary} primäre"
+  - "&5und &4{secondary} sekundäre"
+items.tracker:
+  - "&7Radio"
+  - "&5Gesprächstyp geändert in &a{talktype}"
+items.compass:
+  - "&7Kompass"
+  - "&fKeine Ereignisse im Gange"
+  - "&fZeit bis zum nächsten globalen Ereignis"
+items.watch:
+  - "&7Uhr"
+  - "&fWie lange bis zur nächsten Veranstaltung"
+
+
+structure.hacking:
+  - "&7Hacking in Bearbeitung {time} verbleibende Sekunden"
+  - "&2Hack hat es geschafft! Die Struktur gehört jetzt Ihnen"
+  - "&cHacking fehlgeschlagen! du hast dich bewegt."
+structure.tools:
+  - "Struktur"
+  - "&cStruktur kann nicht abgeholt werden, da das Inventar voll ist"
+structure.info:
+  - "&cStruktur kann nicht gefunden werden! Fehlt die Schematic?"
+  - "&cStruktur schwebt!"
+  - "&cStruktur ist zu tief im Boden!"
+  - "&cStruktur kann hier nicht passen!"
+
+
+mechsuit.info:
+  - "&7Mech betreten"
+  - "&7Mech verlassen"
+  - "Exit"
+  - "&cWarnung Mech schlechte Gesundheit"
+mechsuit.entering:
+  - "&7Erscheinen von Mech t-5 Sekunden ..."
+  - "&cMech konnte nicht betretten werden!"
+  - "&cMech kann nicht mit Diamant betreten werden!"
+
+
+armor.fail:
+  - "&cIhre {armor} Der Kraftstoff geht zur Neige!"
+  - "&cIhre {armor} haben keinen Kraftstoff mehr!"
+
+deployable.place.fail:
+  - "&cEingreifen in eine andere bereitstellbare Freigabe!"
+deployable.pickup.fail:
+  - "&cInventar ist voll!"
+  - "&cBereich ist deaktiviert!"
+  - "&cBereich wird angegriffen!"
+deployable.hacking:
+  - "&7Hacking in Bearbeitung {time} verbleibende Sekunden"
+  - "&2Hack erfolgreich! Der Bereich gehört jetzt Ihnen"
+  - "&cHacking fehlgeschlagen! du hast dich bewegt."
+
+
+squad.messages.friendlyfire:
+  - "&cSCHIESSEN SIE NICHT IHRE EIGENEN TEAMMATES"
+squad.messages.promoted:
+  - "&2Sie wurden zum Gruppenleiter befördert vom Squad: &6{squad}"
+squad.messages.leave:
+  - "&cDu hast das Squad verlassen"
+squad.messages.left:
+  - "&6{player}&2 hat das Squad verlassen"
+squad.messages.join:
+  - "&6{player}&2 ist dem Squad beigetreten"
+squad.messages.joined:
+  - "&2Sie haben sich dem Squad angeschlossen &6{squad}"
+squad.messages.create:
+  - "&2Squad &6{squad}&2 erstellt"
+squad.messages.disband:
+  - "&cSquad &6{squad}&c wurde aufgelöst"
+
+squad.messages.invite:
+  - "&6Der spieler: {player}&2 hat dich eingeladen, dem Squad beizutreten &6{squad}"
+  - "&cYou have already invited this player!"
+
+squad.messages.invites:
+  - "&2Alle Einladungen zulassen"
+  - "&2Alle Einladungen ablehnen"
+  - "&2Alle Einladungen gelöscht"
+squad.messages.invited:
+  - "&2Eingeladen von: &6{player} &2zum Squad: &6{squad}"
+
+squad.messages.command:
+  - "&cDu bist bereits in einem Squad!"
+  - "&cDu bist nicht in einem Squad!"
+  - "&cSie sind kein Squadleader!"

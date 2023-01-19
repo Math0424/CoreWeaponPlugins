@@ -1,0 +1,68 @@
+structures: 
+- ==: me.Math0424.Withered.Structures.Structure
+  #use the file names of the sructures exactly found in your Schematic folder
+  name: bank
+  #how often will this spawn in a normal loot chest (0.0 for nothing)
+  # 0 - 100.000
+  chanceOfSpawnInNormalLootChest: 0.0
+  # 0 - 100.000
+  #how often will this spawn in a advanced loot chest (0.0 for nothing)
+  chanceOfSpawnInAdvancedLootChest: 3.0
+  #how often will this spawn in a drop crate (0.0 for nothing)
+  # 0 - 100.000
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Structures.Structure
+  name: defense
+  chanceOfSpawnInNormalLootChest: 3.0
+  chanceOfSpawnInAdvancedLootChest: 3.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Structures.Structure
+  name: fence
+  chanceOfSpawnInNormalLootChest: 3.0
+  chanceOfSpawnInAdvancedLootChest: 3.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Structures.Structure
+  name: filler
+  chanceOfSpawnInNormalLootChest: 3.0
+  chanceOfSpawnInAdvancedLootChest: 3.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Structures.Structure
+  name: fort
+  chanceOfSpawnInNormalLootChest: 3.0
+  chanceOfSpawnInAdvancedLootChest: 3.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Structures.Structure
+  name: roadblock
+  chanceOfSpawnInNormalLootChest: 3.0
+  chanceOfSpawnInAdvancedLootChest: 3.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Structures.Structure
+  name: stonetower
+  chanceOfSpawnInNormalLootChest: 3.0
+  chanceOfSpawnInAdvancedLootChest: 3.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Structures.Structure
+  name: tunnel
+  chanceOfSpawnInNormalLootChest: 3.0
+  chanceOfSpawnInAdvancedLootChest: 3.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Structures.Structure
+  name: wall
+  chanceOfSpawnInNormalLootChest: 3.0
+  chanceOfSpawnInAdvancedLootChest: 3.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Structures.Structure
+  name: woodtower
+  chanceOfSpawnInNormalLootChest: 3.0
+  chanceOfSpawnInAdvancedLootChest: 3.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0

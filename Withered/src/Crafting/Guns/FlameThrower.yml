@@ -1,0 +1,33 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&eFlameThrower"
+    ammoId: 8
+    modelId: 5
+    isPrimaryGun: false
+    fireType: AUTOMATIC
+    fireRate: 2
+    reloadRate: 2
+    maxAmmoCount: 100
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: FLAMETHROWER_GUN
+    fireVolume: 100
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 3.0
+    bulletHeadShotDamage: 4.0
+    bulletFalloff: 0.1
+    bulletSpread: 10
+    bulletSpeed: 1.0
+    bulletDrop: 0.3
+    bulletType: FLAME
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - SILENCER
+      - MAXLOAD
+      - LONGBARREL
+      - ARMORPENETRATION
+      - HEADSHOTMULTIPLIER
+    startingAttachments:
+    level: 18
+    chanceOfSpawning: 3.0

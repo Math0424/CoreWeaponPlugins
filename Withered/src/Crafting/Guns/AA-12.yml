@@ -1,0 +1,29 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7AA-12"
+    ammoId: 3
+    modelId: 1
+    isPrimaryGun: true
+    fireType: AUTOMATIC
+    fireRate: 8
+    reloadRate: 8
+    maxAmmoCount: 15
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: LARGE_AUTOMATIC
+    fireVolume: 300
+    firePitch: 1.0
+    bulletCount: 8
+    bulletDamage: 2.0
+    bulletHeadShotDamage: 2.0
+    bulletFalloff: 0.1
+    bulletSpread: 40
+    bulletSpeed: 2.5
+    bulletDrop: 0.3
+    bulletType: REGULAR
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - SILENCER
+    startingAttachments:
+    level: 14
+    chanceOfSpawning: 3.0

@@ -1,0 +1,13 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bArmorPenetration"
+    material: IRON_NUGGET
+    modelId: 2
+    lore:
+      - '&9+3 Bullet damage'
+    classifier: ARMORPENETRATION
+    modifiers:
+      - BULLET_DAMAGE:3.0
+      - ARMOR_PIERCING:0.9
+    level: 46
+    chanceOfSpawning: 1.0

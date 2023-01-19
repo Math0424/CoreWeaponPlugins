@@ -1,0 +1,145 @@
+ammo:
+- ==: me.Math0424.Withered.Guns.Ammo
+  #name of the armor '&' represents the minecraft color code
+  name: "&87.62x51mm NATO"
+  #how you refer to the item in the gunData.yml
+  id: 1
+  #what item the gun will be a list of item types are found below
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  material: MAGENTA_DYE
+  #how much can spawn in a chest at once
+  #keep smaller then maxStackSize
+  maxAmount: 32
+  #how big can this item stack to
+  #keep this number between 64-1
+  maxStackSize: 64
+  #how often will this spawn in a normal loot chest (0.0 for nothing)
+  # 0 - 100.000
+  chanceOfSpawnInNormalLootChest: 0.0
+  # 0 - 100.000
+  #how often will this spawn in a advanced loot chest (0.0 for nothing)
+  chanceOfSpawnInAdvancedLootChest: 10.0
+  #how often will this spawn in a drop crate (0.0 for nothing)
+  # 0 - 100.000
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&89MM"
+  id: 2
+  material: LIME_DYE
+  maxAmount: 32
+  maxStackSize: 60
+  chanceOfSpawnInNormalLootChest: 20.0
+  chanceOfSpawnInAdvancedLootChest: 50.0
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 50.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&812ga Buckshot"
+  id: 3
+  material: LIGHT_BLUE_DYE
+  maxAmount: 25
+  maxStackSize: 30
+  chanceOfSpawnInNormalLootChest: 20.0
+  chanceOfSpawnInAdvancedLootChest: 10.0
+  chanceOfSpawnInDropCrate: 30.0
+  chanceOfSpawnInWeaponsCache: 30.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&87.62x39"
+  id: 4
+  material: CYAN_DYE
+  maxAmount: 64
+  maxStackSize: 64
+  chanceOfSpawnInNormalLootChest: 10.0
+  chanceOfSpawnInAdvancedLootChest: 20.0
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&8BMG .50"
+  id: 5
+  material: GRAY_DYE
+  maxAmount: 5
+  maxStackSize: 5
+  chanceOfSpawnInNormalLootChest: 2.0
+  chanceOfSpawnInAdvancedLootChest: 30.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&8Rocket"
+  id: 6
+  material: BLAZE_ROD
+  maxAmount: 5
+  maxStackSize: 5
+  chanceOfSpawnInNormalLootChest: 1.0
+  chanceOfSpawnInAdvancedLootChest: 5.0
+  chanceOfSpawnInDropCrate: 30.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&8HE Round"
+  id: 7
+  material: PINK_DYE
+  maxAmount: 5
+  maxStackSize: 5
+  chanceOfSpawnInNormalLootChest: 1.0
+  chanceOfSpawnInAdvancedLootChest: 20.0
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&8Fuel"
+  id: 8
+  material: ORANGE_DYE
+  maxAmount: 64
+  maxStackSize: 64
+  chanceOfSpawnInNormalLootChest: 5.0
+  chanceOfSpawnInAdvancedLootChest: 30.0
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&8.50AE"
+  id: 9
+  material: LIGHT_GRAY_DYE
+  maxAmount: 20
+  maxStackSize: 25
+  chanceOfSpawnInNormalLootChest: 1.0
+  chanceOfSpawnInAdvancedLootChest: 30.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&8Tracer Round"
+  id: 10
+  material: SPECTRAL_ARROW
+  maxAmount: 10
+  maxStackSize: 15
+  chanceOfSpawnInNormalLootChest: 20.0
+  chanceOfSpawnInAdvancedLootChest: 30.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&8Battery"
+  id: 11
+  material: PURPLE_DYE
+  maxAmount: 64
+  maxStackSize: 64
+  chanceOfSpawnInNormalLootChest: 1.0
+  chanceOfSpawnInAdvancedLootChest: 30.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&8TrackerRocket"
+  id: 12
+  material: BLAZE_POWDER
+  maxAmount: 5
+  maxStackSize: 5
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 1.0
+  chanceOfSpawnInDropCrate: 30.0
+  chanceOfSpawnInWeaponsCache: 10.0
+- ==: me.Math0424.Withered.Guns.Ammo
+  name: "&8Nuke"
+  id: 13
+  material: WHITE_DYE
+  maxAmount: 1
+  maxStackSize: 1
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 0.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0

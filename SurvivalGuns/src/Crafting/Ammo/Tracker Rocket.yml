@@ -1,0 +1,16 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&8Tracker Rocket"
+    modelId: 216
+    bulletCount: 3
+    shape:
+      - "glg"
+      - "tct"
+      - "xbx"
+    ingredients:
+      l: "lightdiode"
+      g: "gold_ingot"
+      c: "comparator"
+      t: "tnt"
+      b: "hardenedbulletcase"
+      x: "blaze_rod"

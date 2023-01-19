@@ -1,0 +1,19 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bExplosivePunch"
+    modelID: 4
+    classifier: "explosive-punch"
+    lore:
+      - '&a+3 Explosive force'
+    modifiers:
+      BULLET_POWER: 3.0
+
+    shape:
+      - "aaa"
+      - "gtl"
+      - "aaa"
+    ingredients:
+      g: "gunpowder"
+      t: "tnt"
+      a: "alloy"
+      l: "largebarrel"

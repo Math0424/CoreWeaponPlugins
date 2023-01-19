@@ -1,0 +1,66 @@
+deployables:
+
+- ==: me.Math0424.Withered.Deployables.Deployable
+  name: "&8EliteShield"
+  type: SHIELD
+  health: 1000.0
+  range: 10.0
+  sound: BLOCK_ANVIL_FALL
+  pitch: 1
+  volume: 1
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 0.0
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 20.0
+
+- ==: me.Math0424.Withered.Deployables.Deployable
+  name: "&8AdvancedShield"
+  type: SHIELD
+  health: 500.0
+  range: 8.0
+  sound: BLOCK_ANVIL_FALL
+  pitch: 1
+  volume: 1
+  chanceOfSpawnInNormalLootChest: 0.1
+  chanceOfSpawnInAdvancedLootChest: 5.0
+  chanceOfSpawnInDropCrate: 30.0
+  chanceOfSpawnInWeaponsCache: 10.0
+
+- ==: me.Math0424.Withered.Deployables.Deployable
+  name: "&8BasicShield"
+  type: SHIELD
+  health: 100.0
+  range: 5.0
+  sound: BLOCK_ANVIL_FALL
+  pitch: 1
+  volume: 1
+  chanceOfSpawnInNormalLootChest: 2.0
+  chanceOfSpawnInAdvancedLootChest: 15.0
+  chanceOfSpawnInDropCrate: 0.0
+  chanceOfSpawnInWeaponsCache: 0.0
+  
+- ==: me.Math0424.Withered.Deployables.Deployable
+  name: "&bAntiPersonnelShield"
+  type: PLAYER
+  health: 800.0
+  range: 9.0
+  sound: BLOCK_ANVIL_FALL
+  pitch: 1
+  volume: 1
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 0.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Deployables.Deployable
+  name: "&cHealBubble"
+  type: HEAL
+  health: 100.0
+  range: 5.0
+  sound: BLOCK_ANVIL_FALL
+  pitch: 1
+  volume: 1
+  chanceOfSpawnInNormalLootChest: 3.0
+  chanceOfSpawnInAdvancedLootChest: 10.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0

@@ -1,0 +1,12 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bForegrip"
+    material: IRON_NUGGET
+    modelId: 7
+    lore:
+      - '&9+10 Accuracy'
+    classifier: FOREGRIP
+    modifiers:
+      - BULLET_SPREAD:-10
+    level: 40
+    chanceOfSpawning: 1.0

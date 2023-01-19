@@ -1,0 +1,20 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bMaxLoad"
+    modelID: 12
+    classifier: "mag-modifier"
+    lore:
+      - '&a+3 Bullets'
+      - '&c-7 Reload speed'
+    modifiers:
+      AMMO_COUNT: 3.0
+      RELOAD_SPEED: -7.0
+      BURST_COUNT: 3.0
+
+    shape:
+      - "abb"
+      - "abb"
+      - "abb"
+    ingredients:
+      b: "bulletcase"
+      a: "alloy"

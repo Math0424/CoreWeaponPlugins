@@ -1,0 +1,49 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7Tracker Launcher"
+    modelID: 17
+    ammoID: "tracker rocket"
+    fireSoundID: "gun_rocket_shoot"
+    firePitch: 1.2
+    fireSoundRange: 250
+
+    isPrimaryGun: false
+    bulletType: TRACER_ROCKET
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 1
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 120
+    fireSpeed: 30
+
+    bulletDrop: 0.0
+    bulletSpeed: 3.5
+    bulletDamage: 0.0
+    headshotMultiplier: 1.0
+    bulletFalloff: 0.0
+    bulletSpread: 4.0
+    bulletPower: 5.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_COUNT_PER_SHOT
+      - ATTACHMENT_HIT_SOUND
+      - BURST_COUNT
+      - ATTACHMENT_SILENCER
+      - AMMO_COUNT
+      - ATTACHMENT_ARMOR_PIERCING
+    shape:
+      - "lll"
+      - "cao"
+      - "rxd"
+    ingredients:
+      l: "largetube"
+      c: "largeguncomponent"
+      a: "hardenedalloy"
+      r: "largeriflereceiver"
+      o: "observer"
+      d: "laserdiode"
+      x: "redstone"

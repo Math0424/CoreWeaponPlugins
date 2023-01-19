@@ -1,0 +1,17 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bForegrip"
+    modelID: 7
+    classifier: "foregrip"
+    lore:
+      - '&a+10 Accuracy'
+    modifiers:
+      BULLET_SPREAD: -10.0
+
+    shape:
+      - "bbb"
+      - "  a"
+      - "  a"
+    ingredients:
+      b: "largetube"
+      a: "alloy"

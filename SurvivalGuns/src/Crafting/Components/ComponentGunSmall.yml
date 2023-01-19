@@ -1,0 +1,12 @@
+component:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.ComponentSerializable
+    name: "&5SmallGunComponent"
+    modelId: 319
+    count: 4
+    shape:
+      - "xxx"
+      - "xax"
+      - "xxx"
+    ingredients:
+      x: "iron_ingot"
+      a: "alloy"

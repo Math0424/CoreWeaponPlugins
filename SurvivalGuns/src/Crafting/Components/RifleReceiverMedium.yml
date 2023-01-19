@@ -1,0 +1,14 @@
+component:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.ComponentSerializable
+    name: "&5MediumRifleReceiver"
+    modelId: 313
+    count: 1
+    shape:
+      - "pxx"
+      - "yzx"
+      - "xx "
+    ingredients:
+      p: "firingpin"
+      x: "iron_ingot"
+      y: "iron_block"
+      z: "smallriflereceiver"

@@ -1,0 +1,104 @@
+#Shopkeeper inventory configs below
+#[inventoryName]::[slot]::[type]::[name]::[price]::[amount]
+#[shopkeeper name]::[slot 1-54]::[type (see below)]::[name of item]::[price]::[amount of items]
+
+#types available are
+#  gun
+#  item
+#  armor
+#  ammo
+#  deployable
+#  structure
+#  attachment
+#  grenade
+
+items:
+
+  #Barrys items
+  - Barry::9::gun::Deagle::500::1
+  - Barry::10::gun::Scar-H::1100::1
+  - Barry::11::gun::M4::800::1
+  - Barry::12::gun::Barrett M90::900::1
+  - Barry::13::gun::Transporter::1000::1
+  - Barry::14::gun::PKP::1200::1
+  - Barry::18::gun::Mosin-Nagant::700::1
+  - Barry::19::gun::M79::1000::1
+  - Barry::20::gun::RocketLauncher::1100::1
+  - Barry::21::gun::NukeLauncher::5000::1
+  - Barry::22::gun::TrackerLauncher::2000::1
+  - Barry::23::gun::Zeus::1000::1
+
+  - Barry::7::ammo::TrackerRocket::200::1
+  - Barry::8::ammo::Capacitor::100::64
+  - Barry::16::ammo::HE Round::100::5
+  - Barry::17::ammo::Rocket::100::5
+  - Barry::25::ammo::BMG .50mm::50::5
+  - Barry::26::ammo::7.62x51mm NATO::50::64
+  - Barry::34::ammo::Nuke::1000::1
+  - Barry::35::ammo::12ga Buckshot::25::30
+  - Barry::43::ammo::.50AE::50::25
+  - Barry::44::ammo::7.62x39mm::50::64
+
+  - Barry::36::grenade::Singularity Grenade::800::1
+  - Barry::37::grenade::Impact Grenade::500::1
+  - Barry::38::grenade::Grenade::300::1
+  - Barry::39::grenade::GasGrenade::100::1
+  - Barry::40::grenade::ClusterGrenade::300::1
+
+  - Barry::45::armor::SpeedBoots::1000::1
+  - Barry::46::armor::PowerLeggings::1000::1
+  - Barry::47::armor::JetPack::1000::1
+
+  - Barry::49::deployable::HealBubble::500::1
+  - Barry::50::deployable::EliteShield::800::1
+  - Barry::51::deployable::AntiPersonnelShield::2000::1
+
+  - Barry::0::attachment::ArmorPenetration::900::1
+  - Barry::1::attachment::Scope x4::400::1
+  - Barry::2::attachment::Silencer::600::1
+  - Barry::3::attachment::Thermals::700::1
+  - Barry::4::attachment::Skull crusher::800::1
+  - Barry::5::attachment::LaserTarget::800::1
+
+  - Barry::53::item::Rations::50::8
+
+
+  #Larrys items
+  - Larry::9::gun::AA-12::500::1
+  - Larry::10::gun::AcidGun::1100::1
+  - Larry::11::gun::AK-47::600::1
+  - Larry::12::gun::Famas::700::1
+  - Larry::13::gun::Laser::800::1
+  - Larry::14::gun::FlameThrower::200::1
+  - Larry::18::gun::Tec9::400::1
+  - Larry::19::gun::MP5::300::1
+  - Larry::20::gun::Taser::100::1
+  - Larry::21::gun::UMP45::500::1
+  - Larry::22::gun::Remington 870::200::1
+  - Larry::23::gun::LaserShotgun::500::1
+
+  - Larry::7::ammo::Acid Canister::200::1
+  - Larry::8::ammo::Battery::100::64
+  - Larry::16::ammo::Fuel::100::64
+  - Larry::17::ammo::9MM::50::30
+  - Larry::25::ammo::7.62x39mm::100::40
+  - Larry::26::ammo::7.62x51mm NATO::100::32
+  - Larry::34::ammo::Tracer Round::100::20
+  - Larry::35::ammo::12ga Buckshot::30::30
+
+  - Larry::45::grenade::EMP::500::1
+  - Larry::46::grenade::SmokeGrenade::300::1
+  - Larry::47::grenade::Flashbang::100::1
+
+  - Larry::49::deployable::HealBubble::600::1
+  - Larry::50::deployable::BasicShield::500::1
+  - Larry::51::deployable::AdvancedShield::600::1
+
+  - Larry::36::attachment::HitNotifier::400::1
+  - Larry::37::attachment::Scope x1.5::500::1
+  - Larry::38::attachment::NightVision::300::1
+  - Larry::39::attachment::TapedMag::800::1
+  - Larry::40::attachment::Foregrip::600::1
+  - Larry::41::attachment::ExtendedMag::1000::1
+
+  - Larry::53::item::Rations::50::8

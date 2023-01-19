@@ -1,0 +1,15 @@
+armor:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.ArmorSerializable
+    name: "&dPowerLeggings"
+    material: DIAMOND_LEGGINGS
+    modelId: 1
+    armorType: POWERLEGS
+    uses: 100
+    usesFixedPerReload: 1
+    fixTime: 3
+    ammoId: 8
+    maxSpeed: 2.0
+    acceleration: 3.0
+    maxHeight: 200
+    level: 47
+    chanceOfSpawning: 1.0

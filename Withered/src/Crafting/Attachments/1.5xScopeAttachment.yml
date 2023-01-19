@@ -1,0 +1,48 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    #name of the weapon '&' represents the minecraft color code
+    name: "&bScope x1.5"
+    #what item the gun will be a list of item types are found below
+    #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+    material: IRON_NUGGET
+    #model ID
+    modelId: 1
+    #modifier for the good part
+    positiveModifier: 5.0
+    #modifier for the negative part if applicable
+    negativeModifier: 0.0
+    #lore of item
+    lore:
+      - '&9+1.5 Zoom'
+    #used to declare illegal attachment types on the guns
+    classifier: SCOPE
+    #Modifier option:double to change it by
+    #MAX_AMMO_COUNT,
+    #BULLET_DROP,
+    #BULLET_SPEED,
+    #BULLET_DAMAGE,
+    #BULLET_HEADSHOT_DAMAGE,
+    #BULLET_FALLOFF,
+    #BULLET_SPREAD,
+    #BULLET_COUNT,
+    #RELOAD_RATE,
+    #FIRE_RATE,
+    #BULLET_PER_RELOAD,
+    #AMMO_PER_RELOAD,
+    #EXPLOSIVE_YIELD,
+    #FIRE_PITCH,
+    #FIRE_VOLUME,
+    #SILENCER,
+    #SCOPE,
+    #HIT_NOTIFY,
+    #THERMALS,
+    #NIGHT_VISION,
+    #LASER_SIGHT,
+    #ARMOR_PIERCING,
+    modifiers:
+      - SCOPE:2.0
+    #level to spawn in chests
+    level: 12
+    #how often will this spawn in a normal loot chest (0.0 for nothing)
+    # 0 - 100.000
+    chanceOfSpawning: 1.0

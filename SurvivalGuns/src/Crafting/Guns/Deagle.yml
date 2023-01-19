@@ -1,0 +1,44 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7Deagle"
+    modelID: 4
+    ammoID: ".50AE"
+    fireSoundID: "gun_pistol_large_shoot"
+    firePitch: 1.0
+    fireSoundRange: 200
+
+    isPrimaryGun: false
+    bulletType: REGULAR
+    gunType: SEMI_AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 8
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 20
+    fireSpeed: 20
+
+    bulletDrop: 0.1
+    bulletSpeed: 4.0
+    bulletDamage: 6.0
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.05
+    bulletSpread: 10.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BULLET_COUNT_PER_SHOT
+      - BURST_COUNT
+    shape:
+      - " d "
+      - "abc"
+      - "e  "
+    ingredients:
+      a: "mediumgunbody"
+      b: "smallguncomponent"
+      c: "mediumbarrel"
+      d: "alloy"
+      e: "mediumpistolreceiver"

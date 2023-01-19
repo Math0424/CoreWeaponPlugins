@@ -1,0 +1,44 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7MP5"
+    modelID: 21
+    ammoID: "9mm"
+    fireSoundID: "gun_automatic_small_shoot"
+    firePitch: 1.0
+    fireSoundRange: 150
+
+    isPrimaryGun: true
+    bulletType: REGULAR
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 30
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 1
+    fireSpeed: 2
+
+    bulletDrop: 0.2
+    bulletSpeed: 1.5
+    bulletDamage: 2.0
+    headshotMultiplier: 1.2
+    bulletFalloff: 0.08
+    bulletSpread: 20.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - BULLET_COUNT_PER_SHOT
+    shape:
+      - "  a"
+      - "pcb"
+      - "ra "
+    ingredients:
+      p: "smallgunbody"
+      c: "smallguncomponent"
+      a: "alloy"
+      b: "mediumbarrel"
+      r: "smallriflereceiver"

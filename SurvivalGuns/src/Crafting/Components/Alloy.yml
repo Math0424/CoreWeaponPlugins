@@ -1,0 +1,15 @@
+component:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.ComponentSerializable
+    #Name
+    name: "&5Alloy"
+    #ModelID
+    modelId: 301
+    #Amount to return
+    count: 16
+    shape:
+      - "yyy"
+      - "yxy"
+      - "yyy"
+    ingredients:
+      x: "gold_ingot"
+      y: "iron_ingot"

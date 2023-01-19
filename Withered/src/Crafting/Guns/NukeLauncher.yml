@@ -1,0 +1,36 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&9NukeLauncher"
+    ammoId: 13
+    modelId: 22
+    isPrimaryGun: true
+    fireType: SEMI_AUTOMATIC
+    fireRate: 10
+    reloadRate: 100
+    maxAmmoCount: 1
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: NUKE_GUN
+    fireVolume: 200
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 500.0
+    bulletHeadShotDamage: 500.0
+    bulletFalloff: 0.0
+    bulletSpread: 2
+    bulletSpeed: 2.0
+    bulletDrop: 0.3
+    bulletType: NUKE
+    illegalAttachments:
+      - SILENCER
+      - ARMORPENETRATION
+      - MAXLOAD
+      - HEADSHOTMULTIPLIER
+      - EXTENDEDMAG
+      - TAPEDMAG
+      - LONGBARREL
+      - HITNOTIFY
+    startingAttachments:
+    explosiveYield: 25.0
+    level: 50
+    chanceOfSpawning: 0.5

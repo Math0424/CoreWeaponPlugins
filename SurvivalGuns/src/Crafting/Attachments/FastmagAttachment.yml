@@ -1,0 +1,18 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bFastmag"
+    modelID: 6
+    classifier: "mag-modifier"
+    lore:
+      - '&a+2 Reload speed'
+    modifiers:
+      RELOAD_SPEED: -2.0
+
+    shape:
+      - "bcb"
+      - "aca"
+      - "aca"
+    ingredients:
+      b: "blue_ice"
+      c: "bulletcase"
+      a: "alloy"

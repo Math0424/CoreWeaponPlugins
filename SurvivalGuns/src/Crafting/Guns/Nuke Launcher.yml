@@ -1,0 +1,47 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&9Nuke Launcher"
+    modelID: 22
+    ammoID: "MiniNuke"
+    fireSoundID: "gun_launcher_shoot_nuke"
+    firePitch: 0.5
+    fireSoundRange: 300
+
+    isPrimaryGun: true
+    bulletType: NUKE
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 1
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 100
+    fireSpeed: 10
+
+    bulletDrop: 0.3
+    bulletSpeed: 2.0
+    bulletDamage: 0.0
+    headshotMultiplier: 1.0
+    bulletFalloff: 0.0
+    bulletSpread: 5.0
+    bulletPower: 10.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BULLET_COUNT_PER_SHOT
+      - ATTACHMENT_HIT_SOUND
+      - BURST_COUNT
+      - ATTACHMENT_SILENCER
+      - AMMO_COUNT
+      - ATTACHMENT_ARMOR_PIERCING
+    shape:
+      - "lll"
+      - "caa"
+      - "r  "
+    ingredients:
+      l: "reinforcedtube"
+      c: "largeguncomponent"
+      a: "reinforcedalloy"
+      r: "largeriflereceiver"

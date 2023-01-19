@@ -1,0 +1,44 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7Famas"
+    modelID: 24
+    ammoID: "7.62x39mm"
+    fireSoundID: "gun_automatic_medium_shoot"
+    firePitch: 1.3
+    fireSoundRange: 200
+
+    isPrimaryGun: true
+    bulletType: REGULAR
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 20
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 10
+    fireSpeed: 3
+
+    bulletDrop: 0.2
+    bulletSpeed: 3.0
+    bulletDamage: 3.0
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.05
+    bulletSpread: 20.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - BULLET_COUNT_PER_SHOT
+    shape:
+      - "aaa"
+      - "pcb"
+      - "r  "
+    ingredients:
+      p: "smallgunbody"
+      c: "smallguncomponent"
+      a: "alloy"
+      b: "mediumbarrel"
+      r: "mediumriflereceiver"

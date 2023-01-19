@@ -1,0 +1,23 @@
+#______________________________________________________________________________
+#
+#     WITHERED: GUN GAME is made a developed by Math0424
+#
+#           want to report a bug or request a feature check out the discord!
+#                        https://discord.gg/wBKUT8t
+#    Want your server added to the list of server running the plugin just ask me on the discord
+#
+#
+#         NOTE: This plugin will work best on a bungeecord server
+#
+#______________________________________________________________________________
+
+#default resource pack
+#Most textures by REXThor. Most sounds by darkstriker999. Edited and improved upon by Math0424 (new/edited textures & sounds)
+resourcePack: https://www.dropbox.com/s/lpguq2rsgm091fr/Withered.zip?dl=1
+forceResourcePack: true
+
+#Enable debug messaged
+showDebug: false
+
+#Dont toutch
+ConfigVersion: 1

@@ -1,0 +1,41 @@
+armor:
+
+- ==: me.Math0424.Withered.Loot.LootItem
+  #name of the armor '&' represents the minecraft color code
+  name: "&bRations"
+  #what item the gun will be a list of item types are found below
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  material: BREAD
+  #how much can spawn in a chest at once
+  #keep smaller then maxStackSize
+  maxAmount: 4
+  #how big can this item stack to
+  #keep this number between 64-1
+  maxStackSize: 8
+  #lore arranged by line
+  lore:
+  #- "text here"
+  #- "more here"
+  
+  # 0 - 100.000
+  #how often will this spawn in a normal loot chest (0.0 for nothing)
+  chanceOfSpawnInNormalLootChest: 50.0
+  # 0 - 100.000
+  #how often will this spawn in a advanced loot chest (0.0 for nothing)
+  chanceOfSpawnInAdvancedLootChest: 50.0
+  #how often will this spawn in a drop crate (0.0 for nothing)
+  # 0 - 100.000
+  chanceOfSpawnInDropCrate: 20.0
+  chanceOfSpawnInWeaponsCache: 20.0
+- ==: me.Math0424.Withered.Loot.LootItem
+  name: "&7Glass"
+  material: GLASS
+  maxAmount: 5
+  maxStackSize: 64
+  lore:
+  #- "text here"
+  #- "more here"
+  chanceOfSpawnInNormalLootChest: 10.0
+  chanceOfSpawnInAdvancedLootChest: 10.0
+  chanceOfSpawnInDropCrate: 20.0
+  chanceOfSpawnInWeaponsCache: 20.0

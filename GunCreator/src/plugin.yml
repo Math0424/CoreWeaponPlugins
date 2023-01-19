@@ -1,0 +1,13 @@
+name: GunCreator
+version: 1.0.3
+author: Math0424
+main: me.Math0424.GunCreator.GunCreator
+api-version: "1.17"
+depend: [CoreWeapons]
+commands:
+  guncreator:
+    description: interface for GunCreator
+
+permissions:
+  guncreator.use:
+    default: op

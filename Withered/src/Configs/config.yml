@@ -1,0 +1,127 @@
+#====================================================
+#=    _       ___ __  __                       __   =
+#=   | |     / (_) /_/ /_  ___  ________  ____/ /   =
+#=   | | /| / / / __/ __ \/ _ \/ ___/ _ \/ __  /    =
+#=   | |/ |/ / / /_/ / / /  __/ /  /  __/ /_/ /     =
+#=   |__/|__/_/\__/_/ /_/\___/_/   \___/\__,_/      =
+#=                                                  =
+#=  By: Math0424                                    =
+#====================================================
+#Below is the configuration for withered
+#It allows for lots of changes
+#if the number has a decimal point keep it
+#if the value is a string keep it in ""
+
+#Discord: http://discord.gg/BgR8wxT
+
+
+#change server language
+#If you want to support the plugin and add a language feel free to PM me on the discord
+
+#English
+#Chineese - not implemented yet
+#Spanish - implemented; but translated with google translate
+ServerLang: "English"
+
+#Format of the chat
+#Papi support coming in a later version
+#Consider donating to help the project along quicker
+ChatFormat: "&7[[type]] &6[[level]&6]&7[player]&6[squad]&7: [message]"
+#Chat range in blocks of local chat
+LocalChatRange: 200
+
+#Spawn time in min to start an event
+GlobalEventTime: 60
+#Spawn time in min to start a local event
+LocalEventTime: 10
+#minimum players for a global event
+GlobalEventMinPlayers: 3
+#level of the weapons cashe chest
+WeaponsCacheLevel: 40
+#level of the dropcrate
+DropCrateLevel: 50
+#time till the dropcrate will land in min
+DropCrateSpawnTime: 10
+
+#day that the endgame diamond will spawn
+# 0 = disabled
+# 1 = monday
+#...
+# 7 = sunday
+EndGameDiamondDay: 1
+
+#spawn items when clicking sign
+DefaultSpawnGun: "P226"
+DefaultSpawnItem: "Rations"
+
+#Time for chest rotation, if you have alot of chest make it higher
+ChestPopulationTime: 80
+#chance for the guns to spawn with x quality
+ChestNewGunChance: 3
+ChestFairGunChance: 10
+ChestUsedGunChance: 30
+ChestWornGunChance: 60
+#do chests disappear when clicked on?
+ChestPop: true
+
+
+#keep enabled for best experience
+DestructibleWorld: true
+#area to disable all damage around spawn
+SpawnProtectSize: 50
+#When the world resets to inventories transfer
+KeepPlayerInventoryOnReset: true
+#max amount of cars in the world
+MaxCarSpawns: 20
+
+#max amount of primary guns in inventory
+MaxPrimaryGuns: 1
+#max amount of secondary guns in the inventory
+MaxSecondaryGuns: 2
+
+#punnish friendly fire?
+SquadFriendlyFirePunish: true
+#allow friendly fire?
+SquadFriendlyFire: true
+
+#money name
+CurrencyName: "&2Money&r"
+#how much do players spawn with
+StartingValue: 100
+
+#how many slots are empty in the players inventory
+EmptySlots: 2
+#only spawn zombies?
+ZombiesMode: false
+#water kill you?
+DeathByWater: true
+#show nametags?
+NameTagVisibility: false
+
+#do cars respect road blocs
+CarsUseRoadBlocks: true
+
+#Config for the mech
+MechSuitHealth: 500
+#This gun doesnt come with ammo
+MechSuitPrimaryGun: "M240"
+#This gun comes with 64 ammo
+MechSutiSecondaryGun: "RocketLauncher"
+
+
+#Resourcepack link, it will automatically hash for you using super secret tech
+ResourcePack: "https://www.dropbox.com/s/lpguq2rsgm091fr/Withered.zip?dl=1"
+
+
+#Info for my SQL
+#Currently not implemented please wait for a future version
+#Consider donating to help the project along quicker
+UseMySQL: false
+Host: ""
+Port: 6284
+Password: ""
+Username: ""
+
+#debug stuffs
+DebugMode: false
+DisableCarSpawns: false

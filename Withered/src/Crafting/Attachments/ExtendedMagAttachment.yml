@@ -1,0 +1,12 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bExtendedMag"
+    material: IRON_NUGGET
+    modelId: 5
+    lore:
+      - '&9+5 Rounds'
+    classifier: EXTENDEDMAG
+    modifiers:
+      - MAX_AMMO_COUNT:5.0
+    level: 50
+    chanceOfSpawning: 1.0

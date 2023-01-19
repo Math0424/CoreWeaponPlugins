@@ -1,0 +1,16 @@
+grenade:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GrenadeSerializable
+    name: "&8Flashbang"
+    material: CLAY_BALL
+    modelId: 106
+    explodeTime: 20
+    throwMultiplier: 1.5
+    explosiveYield: 5.0
+    grenadeType: FLASHBANG
+    throwSound: UI_BUTTON_CLICK
+    throwPitch: 1.0
+    throwVolume: 3
+    maxStackSize: 5
+    maxAmount: 2
+    level: 13
+    chanceOfSpawning: 1.0

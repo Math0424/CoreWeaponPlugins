@@ -1,0 +1,74 @@
+items:
+  - ==: me.Math0424.Withered.Loot.ItemSerializable
+    #name of the armor '&' represents the minecraft color code
+    name: "&bRations"
+    #what item the gun will be a list of item types are found below
+    #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+    material: BREAD
+    #how much can spawn in a chest at once
+    #keep smaller then maxStackSize
+    maxAmount: 4
+    #how big can this item stack to
+    #keep this number between 64-1
+    maxStackSize: 8
+    #lore arranged by line
+    lore:
+    #- "text here"
+    #- "more here"
+
+    #level for it to spawn at and above
+    level: 1
+    #chance that it will spawn when selected in and above the level (0.0 for no spawn)
+    # 0 - 100.000
+    chanceOfSpawning: 50.0
+  - ==: me.Math0424.Withered.Loot.ItemSerializable
+    name: "&7Glass"
+    material: GLASS
+    maxAmount: 5
+    maxStackSize: 64
+    level: 10
+    chanceOfSpawning: 10.0
+  - ==: me.Math0424.Withered.Loot.ItemSerializable
+    name: "&7Kevlar Leggings"
+    material: IRON_LEGGINGS
+    maxAmount: 1
+    maxStackSize: 1
+    level: 40
+    chanceOfSpawning: 2.0
+  - ==: me.Math0424.Withered.Loot.ItemSerializable
+    name: "&7Kevlar Boots"
+    material: IRON_BOOTS
+    maxAmount: 1
+    maxStackSize: 1
+    level: 20
+    chanceOfSpawning: 2.0
+  - ==: me.Math0424.Withered.Loot.ItemSerializable
+    name: "&7Kevlar Chestplate"
+    material: IRON_CHESTPLATE
+    maxAmount: 1
+    maxStackSize: 1
+    level: 30
+    chanceOfSpawning: 2.0
+
+
+  - ==: me.Math0424.Withered.Loot.ItemSerializable
+    name: "&7Leather Leggings"
+    material: LEATHER_LEGGINGS
+    maxAmount: 1
+    maxStackSize: 1
+    level: 10
+    chanceOfSpawning: 9.0
+  - ==: me.Math0424.Withered.Loot.ItemSerializable
+    name: "&7Leather Boots"
+    material: LEATHER_BOOTS
+    maxAmount: 1
+    maxStackSize: 1
+    level: 10
+    chanceOfSpawning: 10.0
+  - ==: me.Math0424.Withered.Loot.ItemSerializable
+    name: "&7Leather Chestplate"
+    material: LEATHER_CHESTPLATE
+    maxAmount: 1
+    maxStackSize: 1
+    level: 10
+    chanceOfSpawning: 7.0

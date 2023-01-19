@@ -1,0 +1,46 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&9Electric gun"
+    modelID: 30
+    ammoID: "battery"
+    fireSoundID: "gun_laser_shoot"
+    firePitch: 1.3
+    fireSoundRange: 120
+
+    isPrimaryGun: true
+    bulletType: ELECTRIC
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 40
+
+    shotsAddedPerReloadCycle: 40
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 60
+    fireSpeed: 10
+
+    bulletDrop: 0.0
+    bulletSpeed: 70.0
+    bulletDamage: 4.0
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.0
+    bulletSpread: 15.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - ATTACHMENT_SILENCER
+      - BULLET_COUNT_PER_SHOT
+      - ATTACHMENT_ARMOR_PIERCING
+    shape:
+      - " d "
+      - "abc"
+      - "e  "
+    ingredients:
+      a: "mediumgunbody"
+      b: "smallguncomponent"
+      c: "mediumbarrel"
+      d: "alloy"
+      e: "mediumriflereceiver"

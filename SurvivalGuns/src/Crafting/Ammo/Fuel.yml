@@ -1,0 +1,13 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&8Fuel"
+    modelId: 210
+    bulletCount: 128
+    shape:
+      - "aga"
+      - "aba"
+      - "aaa"
+    ingredients:
+      a: "alloy"
+      b: "blaze_rod"
+      g: "gunpowder"

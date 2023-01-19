@@ -1,0 +1,12 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bExplosivePunch"
+    material: IRON_NUGGET
+    modelId: 4
+    lore:
+      - '&9+3 Explosive damage'
+    classifier: EXPLOSIVEPUNCH
+    modifiers:
+      - EXPLOSIVE_YIELD:3.0
+    level: 40
+    chanceOfSpawning: 1.0

@@ -1,0 +1,16 @@
+grenade:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GrenadeSerializable
+    name: "&5ClusterGrenade"
+    material: CLAY_BALL
+    modelId: 102
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 5.0
+    grenadeType: CLUSTER
+    throwSound: UI_BUTTON_CLICK
+    throwPitch: 1.0
+    throwVolume: 3
+    maxStackSize: 5
+    maxAmount: 3
+    level: 40
+    chanceOfSpawning: 1.0

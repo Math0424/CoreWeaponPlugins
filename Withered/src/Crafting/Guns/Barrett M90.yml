@@ -1,0 +1,30 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7Barrett M90"
+    ammoId: 5
+    modelId: 3
+    isPrimaryGun: true
+    fireType: SEMI_AUTOMATIC
+    fireRate: 50
+    reloadRate: 10
+    maxAmmoCount: 7
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: SNIPER_GUN
+    fireVolume: 300
+    firePitch: 0.8
+    bulletCount: 1
+    bulletDamage: 10.0
+    bulletHeadShotDamage: 15.0
+    bulletFalloff: 0.0
+    bulletSpread: 3
+    bulletSpeed: 4.5
+    bulletDrop: 0.2
+    bulletType: REGULAR
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    startingAttachments:
+      - scope x4
+    level: 45
+    chanceOfSpawning: 3.0

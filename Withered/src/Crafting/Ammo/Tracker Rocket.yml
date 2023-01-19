@@ -1,0 +1,10 @@
+ammo:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AmmoSerializable
+    name: "&8TrackerRocket"
+    id: 12
+    modelId: 216
+    material: BLAZE_ROD
+    maxAmount: 5
+    maxStackSize: 5
+    level: 50
+    chanceOfSpawning: 1.0

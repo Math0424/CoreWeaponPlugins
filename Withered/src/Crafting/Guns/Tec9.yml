@@ -1,0 +1,30 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7Tec9"
+    ammoId: 2
+    modelId: 25
+    isPrimaryGun: false
+    fireType: BURST_FIRE
+    burstRoundCount: 10
+    fireRate: 2
+    reloadRate: 5
+    maxAmmoCount: 30
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: SMALL_AUTOMATIC
+    fireVolume: 300
+    firePitch: 1.2
+    bulletCount: 1
+    bulletDamage: 2.0
+    bulletHeadShotDamage: 3.0
+    bulletFalloff: 0.1
+    bulletSpread: 20
+    bulletSpeed: 3.5
+    bulletDrop: 0.2
+    bulletType: REGULAR
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    startingAttachments:
+    level: 11
+    chanceOfSpawning: 3.0

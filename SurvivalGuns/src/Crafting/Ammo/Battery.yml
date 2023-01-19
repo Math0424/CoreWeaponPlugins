@@ -1,0 +1,15 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&8Battery"
+    modelId: 207
+    bulletCount: 1
+    shape:
+      - "igg"
+      - "rbb"
+      - "aaa"
+    ingredients:
+      a: "copper_ingot"
+      b: "redstone"
+      g: "gold_ingot"
+      i: "iron_ingot"
+      r: "redstone_block"

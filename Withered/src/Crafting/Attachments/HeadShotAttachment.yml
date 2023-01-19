@@ -1,0 +1,12 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bSkull crusher"
+    material: IRON_NUGGET
+    modelId: 8
+    lore:
+      - '&9+3 Headshot damage'
+    classifier: HEADSHOTMULTIPLIER
+    modifiers:
+      - BULLET_HEADSHOT_DAMAGE:3.0
+    level: 40
+    chanceOfSpawning: 1.0

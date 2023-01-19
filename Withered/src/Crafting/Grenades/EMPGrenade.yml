@@ -1,0 +1,16 @@
+grenade:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GrenadeSerializable
+    name: "&dEMP"
+    material: SLIME_BALL
+    modelId: 105
+    explodeTime: 30
+    throwMultiplier: 1.5
+    explosiveYield: 20.0
+    grenadeType: EMP
+    throwSound: UI_BUTTON_CLICK
+    throwPitch: 1.0
+    throwVolume: 3
+    maxStackSize: 10
+    maxAmount: 3
+    level: 15
+    chanceOfSpawning: 1.0

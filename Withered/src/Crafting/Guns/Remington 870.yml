@@ -1,0 +1,29 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7Remington 870"
+    ammoId: 3
+    modelId: 13
+    isPrimaryGun: true
+    fireType: SEMI_AUTOMATIC
+    fireRate: 18
+    reloadRate: 9
+    maxAmmoCount: 8
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: SHOTGUN
+    fireVolume: 260
+    firePitch: 0.8
+    bulletCount: 5
+    bulletDamage: 2.0
+    bulletHeadShotDamage: 3.0
+    bulletFalloff: 0.1
+    bulletSpread: 30
+    bulletSpeed: 2.2
+    bulletDrop: 0.3
+    bulletType: REGULAR
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - SILENCER
+    startingAttachments:
+    level: 18
+    chanceOfSpawning: 3.0

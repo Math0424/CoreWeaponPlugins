@@ -1,0 +1,12 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&8Grenade Casing"
+    modelId: 211
+    bulletCount: 15
+    shape:
+      - "a a"
+      - "a a"
+      - "aga"
+    ingredients:
+      a: "alloy"
+      g: "gunpowder"

@@ -1,0 +1,12 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bNightVision"
+    material: IRON_NUGGET
+    modelId: 13
+    lore:
+      - '&9See in the dark'
+    classifier: NIGHTVISION
+    modifiers:
+      - NIGHT_VISION:0.0
+    level: 30
+    chanceOfSpawning: 1.0

@@ -1,0 +1,10 @@
+ammo:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AmmoSerializable
+    name: "&812ga Buckshot"
+    id: 3
+    modelId: 205
+    material: GOLD_NUGGET
+    maxAmount: 25
+    maxStackSize: 30
+    level: 8
+    chanceOfSpawning: 1.0

@@ -1,0 +1,14 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bTapedMag"
+    material: IRON_NUGGET
+    modelId: 15
+    lore:
+      - '&9+5 Rounds'
+      - '&c-10 Accuracy'
+    classifier: TAPEDMAG
+    modifiers:
+      - MAX_AMMO_COUNT:5.0
+      - BULLET_SPREAD:10.0
+    level: 30
+    chanceOfSpawning: 1.0

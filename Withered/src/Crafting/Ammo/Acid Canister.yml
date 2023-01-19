@@ -1,0 +1,10 @@
+ammo:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AmmoSerializable
+    name: "&aAcid Canister"
+    id: 14
+    modelId: 206
+    material: GOLD_NUGGET
+    maxAmount: 30
+    maxStackSize: 30
+    level: 25
+    chanceOfSpawning: 1.0

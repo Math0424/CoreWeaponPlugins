@@ -1,0 +1,44 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7M4"
+    modelID: 9
+    ammoID: "7.62x39mm"
+    fireSoundID: "gun_automatic_medium_shoot"
+    firePitch: 1.1
+    fireSoundRange: 200
+
+    isPrimaryGun: true
+    bulletType: REGULAR
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 32
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 12
+    fireSpeed: 4
+
+    bulletDrop: 0.1
+    bulletSpeed: 3.6
+    bulletDamage: 3.0
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.04
+    bulletSpread: 15.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - BULLET_COUNT_PER_SHOT
+    shape:
+      - " aa"
+      - "fcb"
+      - "r  "
+    ingredients:
+      a: "alloy"
+      f: "mediumgunbody"
+      c: "mediumguncomponent"
+      b: "mediumbarrel"
+      r: "largeriflereceiver"

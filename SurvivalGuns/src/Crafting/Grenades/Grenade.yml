@@ -1,0 +1,20 @@
+grenade:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GrenadeSerializable
+    name: "&4Grenade"
+    modelId: 101
+    grenadeType: GRENADE
+
+    soundID: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    throwPitch: 1.0
+    throwVolume: 3.0
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 3.0
+    shape:
+      - "aaa"
+      - "ata"
+      - "ara"
+    ingredients:
+      t: "tnt"
+      a: "alloy"
+      r: "redstone"

@@ -1,0 +1,20 @@
+grenade:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GrenadeSerializable
+    name: "&bIncineration Grenade"
+    modelId: 109
+    grenadeType: INCINERATOR
+
+    soundID: "UI_BUTTON_CLICK"
+    throwPitch: 1.0
+    throwVolume: 3.0
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 4.0
+    shape:
+      - "aba"
+      - "bgb"
+      - "aaa"
+    ingredients:
+      b: "blaze_rod"
+      g: "grenade"
+      a: "alloy"

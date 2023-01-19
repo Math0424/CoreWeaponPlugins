@@ -1,0 +1,16 @@
+grenade:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GrenadeSerializable
+    name: "&8SmokeGrenade"
+    material: SLIME_BALL
+    modelId: 107
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 5.0
+    grenadeType: SMOKE
+    throwSound: UI_BUTTON_CLICK
+    throwPitch: 1.0
+    throwVolume: 3
+    maxStackSize: 10
+    maxAmount: 5
+    level: 10
+    chanceOfSpawning: 1.0

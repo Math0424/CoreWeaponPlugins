@@ -1,0 +1,44 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7AK-47"
+    modelID: 2
+    ammoID: "7.62x39mm"
+    fireSoundID: "gun_automatic_medium_shoot"
+    firePitch: 1.0
+    fireSoundRange: 250
+
+    isPrimaryGun: true
+    bulletType: REGULAR
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 30
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 2
+    fireSpeed: 4
+
+    bulletDrop: 0.3
+    bulletSpeed: 3.2
+    bulletDamage: 3.0
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.1
+    bulletSpread: 25.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - BULLET_COUNT_PER_SHOT
+    shape:
+      - " aa"
+      - "pcb"
+      - " ra"
+    ingredients:
+      p: "mediumgunbody"
+      c: "mediumguncomponent"
+      a: "alloy"
+      b: "largebarrel"
+      r: "mediumriflereceiver"

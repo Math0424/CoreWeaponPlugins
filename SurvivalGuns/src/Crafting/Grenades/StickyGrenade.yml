@@ -1,0 +1,20 @@
+grenade:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GrenadeSerializable
+    name: "&4Sticky Grenade"
+    modelId: 110
+    grenadeType: STICKY
+
+    soundID: "UI_BUTTON_CLICK"
+    throwPitch: 1.0
+    throwVolume: 3.0
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 2.5
+    shape:
+      - "asa"
+      - "sgs"
+      - "asa"
+    ingredients:
+      g: "grenade"
+      a: "alloy"
+      s: "slime_ball"

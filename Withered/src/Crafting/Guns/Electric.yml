@@ -1,0 +1,35 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&9Electric gun"
+    ammoId: 15
+    modelId: 30
+    isPrimaryGun: true
+    fireType: AUTOMATIC
+    fireRate: 10
+    reloadRate: 10
+    maxAmmoCount: 34
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: ELECTRIC_HIT
+    fireVolume: 200
+    firePitch: 1.3
+    bulletCount: 1
+    bulletDamage: 4.0
+    bulletHeadShotDamage: 5.0
+    bulletFalloff: 0.0
+    bulletSpread: 15
+    #distance
+    bulletSpeed: 150.0
+    bulletDrop: 0.0
+    bulletType: ELECTRIC
+    illegalAttachments:
+      - SILENCER
+      - LONGBARREL
+      - EXPLOSIVEPUNCH
+      - ARMORPENETRATION
+      - HEADSHOTMULTIPLIER
+      - MAXLOAD
+    startingAttachments:
+    explosiveYield: 3.0
+    level: 40
+    chanceOfSpawning: 3.0

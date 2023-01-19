@@ -1,0 +1,19 @@
+name: CoreHooks
+version: 1.0.5
+author: Math0424
+main: me.Math0424.CoreHooks.Main
+api-version: "1.17"
+softdepend: [CoreWeapons, PlaceholderAPI, WorldGuard, Withered, SurvivalGuns, Towny, GriefPrevention, Lands, QuickShop, ChestShop]
+permissions:
+  core.gun.fire:
+    default: true
+    description: "Shoot guns"
+  core.deployable.deploy:
+    default: true
+    description: "Use deployables"
+  core.armor.use:
+    default: true
+    description: "Use armor"
+  core.grenades.use:
+    default: true
+    description: "Throw grenades"

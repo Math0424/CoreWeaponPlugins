@@ -1,0 +1,34 @@
+how to make the scem file
+
+1. build a structure that you want to use !!see fig1 for how to orientate it!!
+
+<fig1/>.
+
+	top down view
+	_________
+    |       |		 .
+    |		|		/ \
+    |		|		 |
+    |___f___|   	 |
+    c		   	   south
+    
+    key:
+    c = were the chest will go (can be anywere accept on the structure)
+    f = front
+    
+    (note: Withered plugin will mirror the structure eastwards build accordingly thats just how the code works)
+</fig1>.   
+ 
+2. once you build the structure with the above format you select it in worldedit 1.13 go to were you want the chest and type //copy
+
+3. then you type //schem save [name]
+
+4. navigate to your worldedit folder and into schematics
+
+5. take your file that you created and move it to Withered/Schematics
+
+6. go to the loot config and look at the stucture format to add it to the loot table
+
+7. then type /withered give structures and look for yours!
+
+if errors occour while placing the chest you probably did something wrong...

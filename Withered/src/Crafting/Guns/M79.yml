@@ -1,0 +1,36 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7M79"
+    ammoId: 7
+    modelId: 6
+    isPrimaryGun: false
+    fireType: SEMI_AUTOMATIC
+    fireRate: 10
+    reloadRate: 100
+    maxAmmoCount: 1
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: GRENADE_LAUNCHER
+    fireVolume: 200
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 1.0
+    bulletHeadShotDamage: 1.0
+    bulletFalloff: 0.0
+    bulletSpread: 10
+    bulletSpeed: 1.5
+    bulletDrop: 0.2
+    bulletType: GRENADE
+    illegalAttachments:
+      - SILENCER
+      - ARMORPENETRATION
+      - MAXLOAD
+      - HEADSHOTMULTIPLIER
+      - EXTENDEDMAG
+      - TAPEDMAG
+      - LONGBARREL
+      - HITNOTIFY
+    startingAttachments:
+    explosiveYield: 3.5
+    level: 36
+    chanceOfSpawning: 3.0

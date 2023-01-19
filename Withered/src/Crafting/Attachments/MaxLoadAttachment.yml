@@ -1,0 +1,14 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bMaxLoad"
+    material: IRON_NUGGET
+    modelId: 12
+    lore:
+      - '&9+3 Bullets'
+      - '&c+7 Reload rate'
+    classifier: MAXLOAD
+    modifiers:
+      - BULLET_COUNT:3.0
+      - RELOAD_RATE:7.0
+    level: 30
+    chanceOfSpawning: 1.0

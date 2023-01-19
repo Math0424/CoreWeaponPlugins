@@ -1,0 +1,18 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bArmorPenetration"
+    modelID: 2
+    classifier: "armor-penetration"
+    lore:
+      - "&9Bullets go"
+      - "&9through armor"
+    modifiers:
+      ATTACHMENT_ARMOR_PIERCING: 0.9
+
+    shape:
+      - "aaa"
+      - "ll "
+      - "aaa"
+    ingredients:
+      a: "hardenedalloy"
+      l: "reinforcedbarrel"

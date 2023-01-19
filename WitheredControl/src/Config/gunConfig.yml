@@ -1,0 +1,658 @@
+guns:
+- ==: me.Math0424.Withered.Guns.Gun
+  #name of the weapon '&' represents the minecraft color code
+  name: "&7Scar-H"
+  #what item the gun will be a list of item types are found below
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  material: DIAMOND_AXE
+  #take a look at the ammoData.yml file!
+  ammoId: 1
+  #can you shift to scope
+  scoped: true
+  #is it a Primary(true) or a Seccondary(false)
+  primaryGun: true
+  #Is the gun automatic
+  automatic: true
+  #how fast does it fire
+  fireRate: 4
+  #how fast does it reload
+  reloadRate: 3
+  #How many shots before empty?
+  rounds: 30
+  #how much ammo per reload
+  ammoReloadConsumption: 1
+  #How many shots do you get per reload cycle
+  shotsReloadedPerAmmo: 1
+  #what noise will it make when it shoots a list can be found below 
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+  sound: ENTITY_FIREWORK_ROCKET_BLAST
+  #how loud is it
+  volume: 3
+  #how high is it
+  pitch: 3.0
+  #how many bullets per shot
+  bulletCount: 1
+  #how much damage does each bullet do
+  bulletDamage: 4.0
+  #how much damage it will do with a headshot
+  headShotDamage: 5.0
+  #how accurate is the gun ~0-100
+  bulletSpread: 10
+  #how fast does the bullet travel (anything above 4.0 makes it glitchy)
+  bulletSpeed: 4.0
+  #How fast will the bullet drop downwards
+  bulletDrop: 0.3
+  #what type of bullet is this:
+  #REGULAR
+  #GRENADE 
+  #ROCKET
+  #FLAME
+  #TELEPORT
+  #TRACER
+  #TRACKERROCKET
+  #LASER
+  #NUKE
+  bulletType: REGULAR
+  #how big the explosion is on impact of the bullet (only works for BulletType ROCKET or GRENADE)
+  explosiveYield: 0.0
+  #how often will this spawn in a normal loot chest (0.0 for nothing)
+  # 0 - 100.000
+  chanceOfSpawnInNormalLootChest: 0.0
+  # 0 - 100.000
+  #how often will this spawn in a advanced loot chest (0.0 for nothing)
+  chanceOfSpawnInAdvancedLootChest: 0.1
+  #how often will this spawn in a drop crate (0.0 for nothing)
+  # 0 - 100.000
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7P226"
+  material: WOODEN_HOE
+  ammoId: 2
+  scoped: false
+  primaryGun: false
+  automatic: false
+  fireRate: 10
+  reloadRate: 5
+  rounds: 12
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_ZOMBIE_ATTACK_IRON_DOOR
+  volume: 3
+  pitch: 3.0
+  bulletCount: 1
+  bulletDamage: 3.0
+  headShotDamage: 4.0
+  bulletSpread: 30
+  bulletSpeed: 3.0
+  bulletDrop: 0.2
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 5.0
+  chanceOfSpawnInAdvancedLootChest: 1.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7AA-12"
+  material: GOLDEN_SHOVEL
+  ammoId: 3
+  scoped: false
+  primaryGun: true
+  automatic: true
+  fireRate: 8
+  reloadRate: 8
+  rounds: 15
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_ZOMBIE_BREAK_WOODEN_DOOR
+  volume: 3
+  pitch: 1.0
+  bulletCount: 8
+  bulletDamage: 2.0
+  headShotDamage: 2.0
+  bulletSpread: 40
+  bulletSpeed: 2.5
+  bulletDrop: 0.3
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 10.0
+  chanceOfSpawnInAdvancedLootChest: 12.0
+  chanceOfSpawnInDropCrate: 20.0
+  chanceOfSpawnInWeaponsCache: 10.0
+
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7Remington 870"
+  material: WOODEN_SHOVEL
+  ammoId: 3
+  scoped: false
+  primaryGun: true
+  automatic: false
+  fireRate: 18
+  reloadRate: 9
+  rounds: 8
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_ZOMBIE_BREAK_WOODEN_DOOR
+  volume: 3
+  pitch: 1.5
+  bulletCount: 5
+  bulletDamage: 2.0
+  headShotDamage: 3.0
+  bulletSpread: 30
+  bulletSpeed: 2.2
+  bulletDrop: 0.3
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 8.0
+  chanceOfSpawnInAdvancedLootChest: 14.0
+  chanceOfSpawnInDropCrate: 90.0
+  chanceOfSpawnInWeaponsCache: 30.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7AK-47"
+  material: STONE_AXE
+  ammoId: 4
+  scoped: false
+  primaryGun: true
+  automatic: true
+  fireRate: 4
+  reloadRate: 2
+  rounds: 30
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_ZOMBIE_BREAK_WOODEN_DOOR
+  volume: 3
+  pitch: 1.0
+  bulletCount: 1
+  bulletDamage: 3.0
+  headShotDamage: 4.0
+  bulletSpread: 25
+  bulletSpeed: 3.2
+  bulletDrop: 0.3
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 12.0
+  chanceOfSpawnInAdvancedLootChest: 14.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7M4"
+  material: GOLDEN_AXE
+  ammoId: 1
+  scoped: false
+  primaryGun: true
+  automatic: true
+  fireRate: 4
+  reloadRate: 2
+  rounds: 32
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_ZOMBIE_BREAK_WOODEN_DOOR
+  volume: 3
+  pitch: 2.6
+  bulletCount: 1
+  bulletDamage: 3.0
+  headShotDamage: 4.0
+  bulletSpread: 20
+  bulletSpeed: 3.6
+  bulletDrop: 0.3
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 1.0
+  chanceOfSpawnInAdvancedLootChest: 8.0
+  chanceOfSpawnInDropCrate: 40.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7Barrett M90"
+  material: DIAMOND_SHOVEL
+  ammoId: 5
+  scoped: true
+  primaryGun: true
+  automatic: false
+  fireRate: 50
+  reloadRate: 10
+  rounds: 7
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_FIREWORK_ROCKET_LARGE_BLAST
+  volume: 3
+  pitch: 1.0
+  bulletCount: 1
+  bulletDamage: 10.0
+  headShotDamage: 15.0
+  bulletSpread: 3
+  bulletSpeed: 4.5
+  bulletDrop: 0.2
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 8.0
+  chanceOfSpawnInDropCrate: 30.0
+  chanceOfSpawnInWeaponsCache: 30.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7Mosin-Nagant"
+  material: STONE_SHOVEL
+  ammoId: 1
+  scoped: false
+  primaryGun: true
+  automatic: false
+  fireRate: 40
+  reloadRate: 20
+  rounds: 1
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_FIREWORK_ROCKET_BLAST
+  volume: 3
+  pitch: 1.0
+  bulletCount: 1
+  bulletDamage: 7.0
+  headShotDamage: 10.0
+  bulletSpread: 5
+  bulletSpeed: 4.5
+  bulletDrop: 0.2
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 0.1
+  chanceOfSpawnInAdvancedLootChest: 10.0
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 50.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7MP5"
+  material: IRON_HOE
+  ammoId: 2
+  scoped: false
+  primaryGun: true
+  automatic: true
+  fireRate: 2
+  reloadRate: 1
+  rounds: 30
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_ZOMBIE_ATTACK_IRON_DOOR
+  volume: 3
+  pitch: 2
+  bulletCount: 1
+  bulletDamage: 2.0
+  headShotDamage: 2.5
+  bulletSpread: 20
+  bulletSpeed: 2.0
+  bulletDrop: 0.2
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 10.0
+  chanceOfSpawnInAdvancedLootChest: 15.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7UMP45"
+  material: STONE_HOE
+  ammoId: 2
+  scoped: false
+  primaryGun: true
+  automatic: true
+  fireRate: 3
+  reloadRate: 1
+  rounds: 25
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_ZOMBIE_ATTACK_IRON_DOOR
+  volume: 3
+  pitch: 2.5
+  bulletCount: 1
+  bulletDamage: 2.5
+  headShotDamage: 3.0
+  bulletSpread: 25
+  bulletSpeed: 2.0
+  bulletDrop: 0.2
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 11.0
+  chanceOfSpawnInAdvancedLootChest: 12.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7Deagle"
+  material: DIAMOND_HOE
+  ammoId: 9
+  scoped: false
+  primaryGun: false
+  automatic: false
+  fireRate: 20
+  reloadRate: 5
+  rounds: 10
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_ZOMBIE_ATTACK_IRON_DOOR
+  volume: 3
+  pitch: 1.0
+  bulletCount: 1
+  bulletDamage: 6.0
+  headShotDamage: 7.0
+  bulletSpread: 10
+  bulletSpeed: 4.0
+  bulletDrop: 0.2
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 2.0
+  chanceOfSpawnInAdvancedLootChest: 5.0
+  chanceOfSpawnInDropCrate: 20.0
+  chanceOfSpawnInWeaponsCache: 20.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7PKP"
+  material: DIAMOND_SWORD
+  ammoId: 1
+  scoped: false
+  primaryGun: true
+  automatic: true
+  fireRate: 1
+  reloadRate: 5
+  rounds: 100
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 2
+  sound: ENTITY_ZOMBIE_ATTACK_IRON_DOOR
+  volume: 3
+  pitch: 1.5
+  bulletCount: 1
+  bulletDamage: 1.0
+  headShotDamage: 1.0
+  bulletSpread: 30
+  bulletSpeed: 2.5
+  bulletDrop: 0.2
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 0.001
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7M240"
+  material: GOLDEN_SWORD
+  ammoId: 1
+  scoped: false
+  primaryGun: true
+  automatic: true
+  fireRate: 2
+  reloadRate: 4
+  rounds: 30
+  ammoReloadConsumption: -1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_ZOMBIE_ATTACK_IRON_DOOR
+  volume: 3
+  pitch: 1.5
+  bulletCount: 1
+  bulletDamage: 2.0
+  headShotDamage: 2.0
+  bulletSpread: 30
+  bulletSpeed: 2.5
+  bulletDrop: 0.2
+  bulletType: REGULAR
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 0.0
+  chanceOfSpawnInDropCrate: 0.0
+  chanceOfSpawnInWeaponsCache: 0.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7Tracer"
+  material: WOODEN_PICKAXE
+  ammoId: 10
+  scoped: true
+  primaryGun: false
+  automatic: false
+  fireRate: 20
+  reloadRate: 60
+  rounds: 1
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_ENDER_DRAGON_HURT
+  volume: 3
+  pitch: 1.0
+  bulletCount: 1
+  bulletDamage: 1.0
+  headShotDamage: 1.0
+  bulletSpread: 10
+  bulletSpeed: 3.0
+  bulletDrop: 0.2
+  bulletType: TRACER
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 8.0
+  chanceOfSpawnInAdvancedLootChest: 4.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&eFlameThrower"
+  material: IRON_SWORD
+  ammoId: 8
+  scoped: false
+  primaryGun: false
+  automatic: true
+  fireRate: 2
+  reloadRate: 2
+  rounds: 100
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 5
+  sound: ENTITY_BLAZE_HURT
+  volume: 2
+  pitch: 2.0
+  bulletCount: 1
+  #FireTicks
+  bulletDamage: 1.0
+  headShotDamage: 1.0
+  bulletSpread: 10
+  bulletSpeed: 1.0
+  bulletDrop: 0.3
+  bulletType: FLAME
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 3.0
+  chanceOfSpawnInAdvancedLootChest: 1.0
+  chanceOfSpawnInDropCrate: 30.0
+  chanceOfSpawnInWeaponsCache: 30.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7RocketLauncher"
+  material: DIAMOND_PICKAXE
+  ammoId: 6
+  scoped: false
+  primaryGun: false
+  automatic: false
+  fireRate: 10
+  reloadRate: 150
+  rounds: 1
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_WITHER_SHOOT
+  volume: 3
+  pitch: .1
+  bulletCount: 1
+  bulletDamage: 1.0
+  headShotDamage: 1.0
+  bulletSpread: 30
+  bulletSpeed: 4.0
+  bulletDrop: 0.3
+  bulletType: ROCKET
+  explosiveYield: 5.0
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 0.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7TrackerLauncher"
+  material: IRON_PICKAXE
+  ammoId: 12
+  scoped: false
+  primaryGun: false
+  automatic: false
+  fireRate: 10
+  reloadRate: 200
+  rounds: 1
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_WITHER_SHOOT
+  volume: 3
+  pitch: .5
+  bulletCount: 1
+  bulletDamage: 20.0
+  headShotDamage: 1.0
+  bulletSpread: 30
+  bulletSpeed: 4.0
+  bulletDrop: 0.3
+  bulletType: TRACKERROCKET
+  explosiveYield: 5.0
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 0.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&7GrenadeLauncher"
+  material: STONE_PICKAXE
+  ammoId: 7
+  scoped: false
+  primaryGun: false
+  automatic: false
+  fireRate: 10
+  reloadRate: 100
+  rounds: 1
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_GHAST_SHOOT
+  volume: 3
+  pitch: 1
+  bulletCount: 1
+  bulletDamage: 1.0
+  headShotDamage: 1.0
+  bulletSpread: 10
+  bulletSpeed: 1.5
+  bulletDrop: 0.2
+  bulletType: GRENADE
+  explosiveYield: 3.0
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 0.5
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 50.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&cLaser"
+  material: IRON_AXE
+  ammoId: 11
+  scoped: false
+  primaryGun: false
+  automatic: true
+  fireRate: 3
+  reloadRate: 2
+  rounds: 50
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 5
+  sound: BLOCK_SCAFFOLDING_PLACE
+  volume: 3
+  pitch: 1
+  bulletCount: 1
+  bulletDamage: 2.0
+  headShotDamage: 3.0
+  bulletSpread: 3
+  #distance
+  bulletSpeed: 50.0
+  bulletDrop: 0.0
+  bulletType: LASER
+  explosiveYield: 3.0
+  chanceOfSpawnInNormalLootChest: 1.0
+  chanceOfSpawnInAdvancedLootChest: 6.0
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 50.0
+  
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&cLaserShotGun"
+  material: WOODEN_AXE
+  ammoId: 11
+  scoped: false
+  primaryGun: false
+  automatic: true
+  fireRate: 12
+  reloadRate: 10
+  rounds: 8
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: BLOCK_SCAFFOLDING_PLACE
+  volume: 3
+  pitch: 1
+  bulletCount: 8
+  bulletDamage: 1.0
+  headShotDamage: 2.0
+  bulletSpread: 4
+  #distance
+  bulletSpeed: 15.0
+  bulletDrop: 0.0
+  bulletType: LASER
+  explosiveYield: 3.0
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 5.0
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 50.0
+
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&3Transporter"
+  material: WOODEN_SWORD
+  ammoId: 11
+  scoped: false
+  primaryGun: false
+  automatic: false
+  fireRate: 8
+  reloadRate: 80
+  rounds: 3
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: BLOCK_SCAFFOLDING_PLACE
+  volume: 3
+  pitch: .5
+  bulletCount: 1
+  bulletDamage: 0.0
+  headShotDamage: 0.0
+  bulletSpread: 0
+  bulletSpeed: 5.0
+  bulletDrop: 0.0
+  bulletType: TELEPORT
+  explosiveYield: 0.0
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 5.0
+  chanceOfSpawnInDropCrate: 20.0
+  chanceOfSpawnInWeaponsCache: 20.0
+
+- ==: me.Math0424.Withered.Guns.Gun
+  name: "&9NukeLauncher"
+  material: IRON_SHOVEL
+  ammoId: 13
+  scoped: false
+  primaryGun: true
+  automatic: false
+  fireRate: 1
+  reloadRate: 400
+  rounds: 1
+  ammoReloadConsumption: 1
+  shotsReloadedPerAmmo: 1
+  sound: ENTITY_ENDER_DRAGON_FLAP
+  volume: 5
+  pitch: 1
+  bulletCount: 1
+  bulletDamage: 500.0
+  headShotDamage: 500.0
+  bulletSpread: 2
+  bulletSpeed: 2.0
+  bulletDrop: 0.3
+  bulletType: NUKE
+  explosiveYield: 25.0
+  chanceOfSpawnInNormalLootChest: 0.001
+  chanceOfSpawnInAdvancedLootChest: 0.001
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0

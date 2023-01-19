@@ -1,0 +1,17 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bLongbarrel"
+    modelID: 11
+    classifier: "barrel"
+    lore:
+      - '&a+50 Bullet range'
+    modifiers:
+      BULLET_FALLOFF: -0.2
+
+    shape:
+      - "aaa"
+      - "lll"
+      - "aaa"
+    ingredients:
+      l: "largebarrel"
+      a: "hardenedalloy"

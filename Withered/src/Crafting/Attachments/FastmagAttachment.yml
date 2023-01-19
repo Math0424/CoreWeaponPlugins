@@ -1,0 +1,12 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bFastmag"
+    material: IRON_NUGGET
+    modelId: 6
+    lore:
+      - '&9-2 Reload time'
+    classifier: FASTMAG
+    modifiers:
+      - RELOAD_RATE:-2.0
+    level: 15
+    chanceOfSpawning: 1.0

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CoreHooks/CoreHooks.iml" filepath="$PROJECT_DIR$/CoreHooks/CoreHooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GunCreator/GunCreator.iml" filepath="$PROJECT_DIR$/GunCreator/GunCreator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreWeapons/NMS18a.iml" filepath="$PROJECT_DIR$/CoreWeapons/NMS18a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SurvivalGuns/SurvivalGuns.iml" filepath="$PROJECT_DIR$/SurvivalGuns/SurvivalGuns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Withered/Withered.iml" filepath="$PROJECT_DIR$/Withered/Withered.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WitheredControl/WitheredControl.iml" filepath="$PROJECT_DIR$/WitheredControl/WitheredControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WitheredGunGame/WitheredGunGame.iml" filepath="$PROJECT_DIR$/WitheredGunGame/WitheredGunGame.iml" />
+    </modules>
+  </component>
+</project>

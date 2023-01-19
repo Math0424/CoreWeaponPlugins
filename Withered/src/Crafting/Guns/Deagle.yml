@@ -1,0 +1,30 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7Deagle"
+    ammoId: 9
+    modelId: 4
+    isPrimaryGun: false
+    fireType: SEMI_AUTOMATIC
+    fireRate: 20
+    reloadRate: 5
+    maxAmmoCount: 10
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: LARGE_PISTOL
+    fireVolume: 200
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 6.0
+    bulletHeadShotDamage: 7.0
+    bulletFalloff: 0.05
+    bulletSpread: 10
+    bulletSpeed: 4.0
+    bulletDrop: 0.2
+    bulletType: REGULAR
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    startingAttachments:
+      - hitnotifier
+    level: 28
+    chanceOfSpawning: 3.0

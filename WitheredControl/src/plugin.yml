@@ -1,0 +1,33 @@
+name: WitheredControl
+version: 1.5.4
+author: Math0424
+main: me.Math0424.Withered.WitheredControl
+api-version: 1.13
+dependencys: 
+softdepend: [Multiverse-Core]
+commands:
+  squad:
+    description: use the squad interface
+  withered:
+    description: use the withered interface
+  suicide:
+    description: kill yourself
+permissions:
+  withered.squad.*:
+    description: Use all withered squad commands
+  withered.squad.use:
+    description: general squad commands
+  withered.squad.create:
+    description: ability to create squads
+  withered.*:
+    description: use all admin commands
+  withered.give:
+    description: use the give commands
+  withered.setcratespawn:
+    description: set points for events
+  withered.setspawningloc:
+    description: set spawn points for vehicles
+  withered.reloadworlds:
+    description: reload the worlds from the backup file
+  withered.summon:
+    description: use the spawning commands

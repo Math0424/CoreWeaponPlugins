@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GunCreator:jar">
+    <output-path>$USER_HOME$/Desktop/WitheredTesting/plugins</output-path>
+    <root id="archive" name="GunCreator.jar">
+      <element id="module-output" name="GunCreator" />
+    </root>
+  </artifact>
+</component>

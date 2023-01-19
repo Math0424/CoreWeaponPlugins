@@ -1,0 +1,10 @@
+ammo:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AmmoSerializable
+    name: "&8Rocket"
+    id: 6
+    modelId: 214
+    material: BLAZE_ROD
+    maxAmount: 5
+    maxStackSize: 5
+    level: 40
+    chanceOfSpawning: 1.0

@@ -1,0 +1,57 @@
+#Inventory Configs
+
+#Options for adding items
+
+#Slot::Gun::GunName::Price
+#Slot::Armor::ArmorName::Price
+#Slot::Grenade::GrenadeName::Price
+#Slot::Ammo::AmmoID::Price::Amount
+#Slot::Item::Name::Price::Amount
+
+#!!nothing bigger then 54 for the slot number
+
+ShopKeeperInventory:
+ - 0::gun::Deagle::500
+ - 1::gun::MP5::200
+ - 2::gun::UMP45::200
+ - 3::gun::Scar-H::800
+ - 4::gun::M4::600
+ - 5::gun::AK-47::500
+ - 9::gun::Barrett M90::900
+ - 10::gun::Remington 870::300
+ - 11::gun::AA-12::400
+ - 13::gun::FlameThrower::600
+ - 14::gun::Transporter::1000
+ - 18::gun::PKP::1000
+ - 19::gun::Mosin-Nagant::600
+ - 20::gun::GrenadeLauncher::1000
+ - 21::gun::RocketLauncher::1100
+ - 22::gun::Laser::400
+ - 23::gun::NukeLauncher::3000
+ - 12::gun::TrackerLauncher::2000
+ 
+ - 8::ammo::HE Round::100::5
+ - 7::ammo::Rocket::100::5
+ - 17::ammo::BMG .50::500::5
+ - 16::ammo::7.62x51mm NATO::500::64
+ - 26::ammo::Nuke::700::1
+ - 25::ammo::12ga Buckshot::200::30
+ - 35::ammo::.50AE::300::25
+ - 34::ammo::7.62x39::500::64
+ - 15::ammo::9MM::200::60
+ - 6::ammo::Fuel::100::64
+ - 24::ammo::TrackerRocket::200::1
+ - 33::ammo::Battery::200::64
+ 
+ - 45::grenade::Singularity Grenade::800
+ - 46::grenade::Impact Grenade::500
+ - 47::grenade::Grenade::300
+ - 36::grenade::SmokeGrenade::100
+ - 37::grenade::GasGrenade::100
+ - 38::grenade::ClusterGrenade::300
+ - 39::grenade::FlashBang::100
+ - 48::grenade::EMP::200
+ 
+ - 50::armor::SpeedBoots::1000
+ - 51::armor::JetPack::1000
+ - 53::item::Rations::50::8

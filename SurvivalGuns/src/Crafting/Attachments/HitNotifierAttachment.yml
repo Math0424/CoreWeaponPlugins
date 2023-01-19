@@ -1,0 +1,22 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bHitNotifier"
+    modelID: 9
+    classifier: "notify"
+    lore:
+      - '&9Hear noise when target is hit'
+    modifiers:
+      ATTACHMENT_HIT_SOUND: 0.0
+
+    shape:
+      - "bbo"
+      - "tns"
+      - "aaa"
+    ingredients:
+      s: "spectral_arrow"
+      n: "note_block"
+      t: "tripwire_hook"
+      a: "alloy"
+      o: "observer"
+      b: "hardenedalloy"
+

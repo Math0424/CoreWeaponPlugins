@@ -1,0 +1,13 @@
+component:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.ComponentSerializable
+    name: "&5LargeTube"
+    modelId: 306
+    count: 1
+    shape:
+      - "x x"
+      - "yzy"
+      - "x x"
+    ingredients:
+      x: "iron_ingot"
+      y: "iron_block"
+      z: "mediumtube"

@@ -1,0 +1,46 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7Tracer"
+    modelID: 16
+    ammoID: "Tracer Round"
+    fireSoundID: "gun_blowdart_shoot"
+    firePitch: 1.0
+    fireSoundRange: 30
+
+    isPrimaryGun: false
+    bulletType: TRACER
+    gunType: SEMI_AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 5
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 20
+    fireSpeed: 20
+
+    bulletDrop: 0.1
+    bulletSpeed: 4.5
+    bulletDamage: 0.0
+    headshotMultiplier: 1.0
+    bulletFalloff: 0.0
+    bulletSpread: 2.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - BULLET_COUNT_PER_SHOT
+      - ATTACHMENT_SILENCER
+      - AMMO_COUNT
+    shape:
+      - " aa"
+      - "pbb"
+      - "rca"
+    ingredients:
+      p: "reinforcedgunbody"
+      c: "largeguncomponent"
+      a: "reinforcedalloy"
+      b: "reinforcedbarrel"
+      r: "largeriflereceiver"

@@ -1,0 +1,47 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7Grenade Launcher"
+    modelID: 31
+    ammoID: "grenade casing"
+    fireSoundID: "gun_launcher_shoot"
+    firePitch: 1.6
+    fireSoundRange: 100
+
+    isPrimaryGun: false
+    bulletType: GRENADE_LAUNCHER
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 1
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 20
+    fireSpeed: 20
+
+    bulletDrop: 0.0
+    bulletSpeed: 4.0
+    bulletDamage: 0.0
+    headshotMultiplier: 1.0
+    bulletFalloff: 0.0
+    bulletSpread: 10.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BULLET_COUNT_PER_SHOT
+      - ATTACHMENT_HIT_SOUND
+      - BURST_COUNT
+      - ATTACHMENT_SILENCER
+      - AMMO_COUNT
+      - ATTACHMENT_ARMOR_PIERCING
+    shape:
+      - "  a"
+      - "acl"
+      - " r "
+    ingredients:
+      l: "largetube"
+      c: "mediumguncomponent"
+      a: "alloy"
+      r: "smallriflereceiver"

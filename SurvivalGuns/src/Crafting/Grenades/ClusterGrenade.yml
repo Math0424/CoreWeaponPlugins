@@ -1,0 +1,38 @@
+grenade:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GrenadeSerializable
+    name: "&5Cluster Grenade"
+    modelId: 102
+
+    #Grenade Types
+    #GRENADE
+    #SINGULARITY
+    #IMPACT
+    #SMOKE
+    #FLASHBANG
+    #GAS
+    #STICKY
+    #INCINERATOR
+    #EMP
+    #CLUSTER
+    grenadeType: CLUSTER
+
+    #Sound ID, https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+    soundID: "UI_BUTTON_CLICK"
+    throwPitch: 1.0
+    throwVolume: 3.0
+
+    #Time in ticks
+    explodeTime: 60
+    #Force to throw it
+    throwMultiplier: 1.5
+    #How big the boom is
+    explosiveYield: 5.0
+    #See Guns/Scar-H for more information
+    shape:
+      - "aga"
+      - "gtg"
+      - "aga"
+    ingredients:
+      g: "grenade"
+      a: "alloy"
+      t: "tnt"

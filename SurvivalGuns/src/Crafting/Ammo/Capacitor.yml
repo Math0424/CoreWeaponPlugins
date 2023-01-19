@@ -1,0 +1,15 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&1Capacitor"
+    modelId: 209
+    bulletCount: 32
+    shape:
+      - "glg"
+      - "rxr"
+      - "aaa"
+    ingredients:
+      a: "copper_ingot"
+      r: "redstone"
+      x: "redstone_torch"
+      g: "gold_ingot"
+      l: "lightning_rod"

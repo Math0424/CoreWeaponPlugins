@@ -1,0 +1,18 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bScope x2"
+    modelID: 1
+    classifier: "scope"
+    lore:
+      - "&ax2 Scope"
+    modifiers:
+      ATTACHMENT_SCOPE: 2.0
+
+    shape:
+      - "aaa"
+      - "agq"
+      - "aaa"
+    ingredients:
+      g: "Scope x1.5"
+      a: "alloy"
+      q: "quartz"

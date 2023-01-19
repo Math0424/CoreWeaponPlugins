@@ -1,0 +1,46 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7Heavy Sniper"
+    modelID: 27
+    ammoID: ".50BMG"
+    fireSoundID: "gun_sniper_large_shoot"
+    firePitch: 1.0
+    fireSoundRange: 250
+
+    isPrimaryGun: true
+    bulletType: BLINDNESS
+    gunType: AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 3
+
+    shotsAddedPerReloadCycle: 3
+    bulletsDrawnPerReloadCycle: 3
+
+    reloadSpeed: 80
+    fireSpeed: 20
+
+    bulletDrop: 0.1
+    bulletSpeed: 4.0
+    bulletDamage: 8.0
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.01
+    bulletSpread: 8.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - BULLET_COUNT_PER_SHOT
+      - ATTACHMENT_SILENCER
+      - AMMO_COUNT
+    shape:
+      - " aa"
+      - "pbb"
+      - "rca"
+    ingredients:
+      p: "reinforcedgunbody"
+      c: "largeguncomponent"
+      a: "reinforcedalloy"
+      b: "reinforcedbarrel"
+      r: "largeriflereceiver"

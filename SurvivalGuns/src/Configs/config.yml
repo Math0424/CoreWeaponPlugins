@@ -1,0 +1,30 @@
+#Below is the configuration for witheredSurvival
+#It allows for lots of changes
+#if the number has a decimal point keep it
+#if the value is a string keep it in ""
+
+#Discord: http://discord.gg/BgR8wxT
+
+#change server language
+#If you want to support the plugin and add a language feel free to PM me on the discord
+
+#max amount of primary guns in inventory
+MaxPrimaryGuns: 1
+#max amount of secondary guns in the inventory
+MaxSecondaryGuns: 2
+
+#leave it on
+BlockPhysics: true
+
+#can bullets break blocks?
+BlockDamage: true
+
+#Resourcepack link, it will automatically hash for you using super secret tech
+ResourcePack: "https://www.dropbox.com/s/6aeyokqam709cp4/SurvivalGuns.zip?dl=1"
+
+#Give players the crafting recipies?
+GiveRecipies: true
+
+#Do nukes break land?
+NukeDamage: true
+

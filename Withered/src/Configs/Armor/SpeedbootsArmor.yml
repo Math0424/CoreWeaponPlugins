@@ -1,0 +1,15 @@
+armor:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.ArmorSerializable
+    name: "&aSpeedBoots"
+    material: DIAMOND_BOOTS
+    modelId: 1
+    armorType: SPEEDBOOTS
+    uses: 400
+    usesFixedPerReload: 20
+    fixTime: 3
+    ammoId: 8
+    maxSpeed: 3.0
+    acceleration: 0.3
+    maxHeight: 150
+    level: 45
+    chanceOfSpawning: 1.0

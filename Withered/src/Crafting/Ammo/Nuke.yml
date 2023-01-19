@@ -1,0 +1,10 @@
+ammo:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AmmoSerializable
+    name: "&8Nuke"
+    id: 13
+    modelId: 213
+    material: BLAZE_POWDER
+    maxAmount: 1
+    maxStackSize: 1
+    level: 50
+    chanceOfSpawning: 1.0

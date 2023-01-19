@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CoreWeapons:jar">
+    <output-path>$USER_HOME$/Desktop/WitheredTesting/plugins</output-path>
+    <root id="archive" name="CoreWeapons.jar">
+      <element id="module-output" name="CoreWeapons" />
+    </root>
+  </artifact>
+</component>

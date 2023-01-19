@@ -1,0 +1,29 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7P226"
+    ammoId: 2
+    modelId: 11
+    isPrimaryGun: false
+    fireType: SEMI_AUTOMATIC
+    fireRate: 10
+    reloadRate: 5
+    maxAmmoCount: 12
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: SMALL_PISTOL
+    fireVolume: 150
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 3.0
+    bulletHeadShotDamage: 4.0
+    bulletFalloff: 0.1
+    bulletSpread: 30
+    bulletSpeed: 3.0
+    bulletDrop: 0.2
+    bulletType: REGULAR
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    startingAttachments:
+    level: 8
+    chanceOfSpawning: 3.0

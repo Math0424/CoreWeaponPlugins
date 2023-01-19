@@ -1,0 +1,45 @@
+structures:
+  - ==: me.Math0424.Withered.Structures.StructureSerializable
+    name: bank
+    chanceOfSpawning: 0.5
+    level: 50
+  - ==: me.Math0424.Withered.Structures.StructureSerializable
+    name: defense
+    chanceOfSpawning: 0.5
+    level: 20
+  - ==: me.Math0424.Withered.Structures.StructureSerializable
+    name: fence
+    chanceOfSpawning: 0.5
+    level: 10
+  - ==: me.Math0424.Withered.Structures.StructureSerializable
+    name: filler
+    chanceOfSpawning: 0.5
+    level: 5
+  - ==: me.Math0424.Withered.Structures.StructureSerializable
+    name: fort
+    chanceOfSpawning: 0.5
+    level: 10
+  - ==: me.Math0424.Withered.Structures.StructureSerializable
+    name: roadblock
+    chanceOfSpawning: 0.5
+    level: 20
+  - ==: me.Math0424.Withered.Structures.StructureSerializable
+    name: stonetower
+    chanceOfSpawning: 0.5
+    level: 25
+  - ==: me.Math0424.Withered.Structures.StructureSerializable
+    name: tunnel
+    chanceOfSpawning: 0.5
+    level: 15
+  - ==: me.Math0424.Withered.Structures.StructureSerializable
+    name: wall
+    chanceOfSpawning: 0.5
+    level: 10
+  - ==: me.Math0424.Withered.Structures.StructureSerializable
+    name: woodtower
+    chanceOfSpawning: 0.5
+    level: 25
+  - ==: me.Math0424.Withered.Structures.StructureSerializable
+    name: bunker
+    chanceOfSpawning: 0.5
+    level: 10

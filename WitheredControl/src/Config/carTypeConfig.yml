@@ -1,0 +1,34 @@
+cars:
+- ==: me.Math0424.Withered.Entities.CarTypes
+  #what block the minecart will have inside of it
+  #ONLY USE BLOCKS
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  material: CHAIN_COMMAND_BLOCK
+  hasInventory: true
+  maxSpeed: 0.7
+  maxSpeedOffRoad: 0.2
+  #the chance that it will spawn
+  # 0 - 100.000
+  spawnRate: 100.0
+- ==: me.Math0424.Withered.Entities.CarTypes
+  #what block the minecart will have inside of it
+  #ONLY USE BLOCKS
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  material: COMMAND_BLOCK
+  hasInventory: true
+  maxSpeed: 0.7
+  maxSpeedOffRoad: 0.2
+  #the chance that it will spawn
+  # 0 - 100.000
+  spawnRate: 100.0
+- ==: me.Math0424.Withered.Entities.CarTypes
+  #what block the minecart will have inside of it
+  #ONLY USE BLOCKS
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  material: REPEATING_COMMAND_BLOCK
+  hasInventory: true
+  maxSpeed: 0.7
+  maxSpeedOffRoad: 0.2
+  #the chance that it will spawn
+  # 0 - 100.000
+  spawnRate: 100.0

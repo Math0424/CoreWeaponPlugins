@@ -1,0 +1,10 @@
+ammo:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AmmoSerializable
+    name: "&87.62x39mm"
+    id: 4
+    modelId: 202
+    material: IRON_NUGGET
+    maxAmount: 64
+    maxStackSize: 0
+    level: 20
+    chanceOfSpawning: 1.0

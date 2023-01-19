@@ -1,0 +1,45 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7Remington 870"
+    modelID: 13
+    ammoID: "12ga buckshot"
+    fireSoundID: "gun_shotgun_large_shoot"
+    firePitch: 1.0
+    fireSoundRange: 220
+
+    isPrimaryGun: true
+    bulletType: REGULAR
+    gunType: SEMI_AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 6
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 20
+    fireSpeed: 20
+
+    bulletDrop: 0.3
+    bulletSpeed: 1.5
+    bulletDamage: 2.2
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.1
+    bulletSpread: 30.0
+    bulletPower: 0.0
+    bulletCountPerShot: 5
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - ATTACHMENT_SILENCER
+      - ATTACHMENT_ARMOR_PIERCING
+    shape:
+      - "aii"
+      - "acb"
+      - "r  "
+    ingredients:
+      a: "largegunbody"
+      c: "mediumguncomponent"
+      b: "smalltube"
+      i: "iron_ingot"
+      r: "largeriflereceiver"

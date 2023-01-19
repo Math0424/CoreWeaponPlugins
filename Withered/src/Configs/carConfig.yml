@@ -1,0 +1,37 @@
+cars:
+  - ==: me.Math0424.Withered.Gameplay.Cars.CarSerializable
+    name: "OffroadCar"
+    #what block the minecart will have inside of it
+    #ONLY USE BLOCKS
+    #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+    material: COMMAND_BLOCK
+    materialId: 0
+    health: 20.0
+    acceleration: 0.05
+    maxSpeed: 0.6
+    maxSpeedOffRoad: 0.2
+    hasInventory: false
+    level: 10
+    chanceOfSpawning: 90.0
+  - ==: me.Math0424.Withered.Gameplay.Cars.CarSerializable
+    name: "SpeedCar"
+    material: REPEATING_COMMAND_BLOCK
+    materialId: 0
+    health: 20.0
+    acceleration: 0.06
+    maxSpeed: 0.7
+    maxSpeedOffRoad: 0.2
+    hasInventory: false
+    level: 10
+    chanceOfSpawning: 90.0
+  - ==: me.Math0424.Withered.Gameplay.Cars.CarSerializable
+    name: "ChestCar"
+    material: CHAIN_COMMAND_BLOCK
+    materialId: 0
+    health: 20.0
+    acceleration: 0.04
+    maxSpeed: 0.5
+    maxSpeedOffRoad: 0.2
+    hasInventory: true
+    level: 10
+    chanceOfSpawning: 90.0

@@ -1,0 +1,16 @@
+grenade:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GrenadeSerializable
+    name: "&2Impact Grenade"
+    material: CLAY_BALL
+    modelId: 103
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 3.0
+    grenadeType: IMPACT
+    throwSound: UI_BUTTON_CLICK
+    throwPitch: 1.0
+    throwVolume: 3
+    maxStackSize: 5
+    maxAmount: 5
+    level: 30
+    chanceOfSpawning: 1.0

@@ -1,0 +1,113 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    #name of the weapon '&' represents the minecraft color code
+    name: "&7Scar-H"
+    #take a look at the ammoData.yml file!
+    ammoId: 1
+    #model number of the gun
+    modelId: 15
+    #is it a Primary(true) or a Seccondary(false)
+    isPrimaryGun: true
+    #fireMode options
+    #AUTOMATIC,
+    #SEMI_AUTOMATIC,
+    #BURST_FIRE
+    fireType: AUTOMATIC
+    #if fireType is BURST_FIRE, whats the BURST_FIRE count
+    BURST_FIRERoundCount: 0
+    #how fast does it fire
+    fireRate: 4
+    #how fast does it reload
+    reloadRate: 3
+    #How many shots before empty?
+    maxAmmoCount: 30
+    #how much ammo per reload
+    ammoPerReload: 1
+    #How many shots do you get per reload cycle
+    bulletsPerReload: 1
+    #only these names (case sensitive)
+    #LARGE_AUTOMATIC
+    #MEDIUM_AUTOMATIC
+    #SMALL_AUTOMATIC
+    #LARGE_PISTOL
+    #MEDIUM_PISTOL
+    #SMALL_PISTOL
+    #SHOTGUN
+    #SILENCED_AUTOMATIC
+    #ROCKET_LAUNCHER
+    #GRENADE_LAUNCHER
+    #NUKE_GUN
+    #NUKE_BULLET
+    #SNIPER_GUN
+    #LASER_GUN
+    #TELEPORT_GUN
+    #ACID_GUN
+    #TRACER_GUN
+    #FLAMETHROWER_GUN
+    #ELECTRIC_HIT
+    fireSound: MEDIUM_AUTOMATIC
+    #how loud is it in blocks
+    fireVolume: 300
+    #how high is it
+    firePitch: 1.0
+    #how many bullets per shot
+    bulletCount: 1
+    #how much damage does each bullet do
+    bulletDamage: 4.0
+    #how much damage it will do with a headshot
+    bulletHeadShotDamage: 5.0
+    #damage decreased per tick
+    bulletFalloff: 0.02
+    #how accurate is the gun ~0-100
+    bulletSpread: 10
+    #how fast does the bullet travel (anything above 4.0 makes it glitchy)
+    #if using a laser or energy weapon this will determine the range of the gun in blocks
+    bulletSpeed: 4.0
+    #How fast will the bullet drop downwards
+    bulletDrop: 0.3
+    #what type of bullet is this:
+    #REGULAR
+    #GRENADE
+    #ROCKET
+    #FLAME
+    #TRACER
+    #TRACKERROCKET
+    #SNIPER
+    #LASER
+    #TELEPORT
+    #RANDOM
+    #ACID
+    #NUKE
+    #ZEUS
+    #ELECTRIC
+    #GRENADELAUNCHER
+    bulletType: REGULAR
+    #types of attachments
+    #SCOPE
+    #THERMALS
+    #NIGHTVISION
+    #SILENCER
+    #FOREGRIP
+    #BUMPSTOCK
+    #LASERTARGET
+    #FASTMAG
+    #EXTENDEDMAG
+    #TAPEDMAG
+    #LONGBARREL
+    #ARMORPENETRATION
+    #HITNOTIFY
+    #HEADSHOTMULTIPLIER
+    #EXPLOSIVEPUNCH
+    #MAXLOAD
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - MAXLOAD
+    #Name of an attachment cAsE SenSiTivE
+    startingAttachments:
+      - scope x1.5
+    #how big the explosion is on impact of the bullet (only works for BulletTypes that go boom)
+    #Level of the item
+    level: 50
+    #how often will this spawn in a normal loot chest (0.0 for nothing)
+    # 0 - 100.000
+    chanceOfSpawning: 3.0

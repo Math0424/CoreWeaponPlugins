@@ -1,0 +1,44 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7P226"
+    modelID: 11
+    ammoID: "9mm"
+    fireSoundID: "gun_pistol_small_shoot"
+    firePitch: 1.0
+    fireSoundRange: 150
+
+    isPrimaryGun: false
+    bulletType: REGULAR
+    gunType: SEMI_AUTOMATIC
+    maxBurstCount: 0
+    maxShotCount: 30
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 5
+    fireSpeed: 10
+
+    bulletDrop: 0.2
+    bulletSpeed: 2.0
+    bulletDamage: 3.0
+    headshotMultiplier: 1.2
+    bulletFalloff: 0.1
+    bulletSpread: 30.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BURST_COUNT
+      - BULLET_COUNT_PER_SHOT
+    shape:
+      - "a  "
+      - "pcb"
+      - "r  "
+    ingredients:
+      p: "smallgunbody"
+      c: "smallguncomponent"
+      b: "smallbarrel"
+      r: "smallpistolreceiver"
+      a: "alloy"

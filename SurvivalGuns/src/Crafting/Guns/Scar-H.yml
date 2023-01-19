@@ -1,0 +1,117 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    #Name of the gun
+    name: "&eScar-H"
+    #ModelID of the gun
+    modelID: 15
+
+    #ID of the ammo
+    ammoID: "7.62x51mm NATO"
+    #Sound that the gun makes when shooting
+    #gun_automatic_large_shoot
+    #gun_automatic_medium_shoot
+    #gun_automatic_small_shoot
+    #gun_pistol_large_shoot
+    #gun_pistol_medium_shoot
+    #gun_pistol_small_shoot
+    #gun_sniper_large_shoot
+    #gun_sniper_medium_shoot
+    #gun_shotgun_large_shoot
+    #gun_shotgun_medium_shoot
+    fireSoundID: "gun_automatic_large_shoot"
+    #pitch of the sound
+    firePitch: 1.0
+    #Range in blocks that it can be heard
+    fireSoundRange: 250
+
+    #Primary (true) or Secondary (false)
+    isPrimaryGun: true
+    #The bullet the gun shoots
+    #REGULAR
+    #EXPLOSIVE
+    #ROCKET
+    #FLAME
+    #TRACER
+    #TRACER_ROCKET
+    #BLINDNESS
+    #LASER
+    #TELEPORT
+    #PARTY
+    #ACID
+    #NUKE
+    #ELECTRIC
+    #GRENADE_LAUNCHER
+    bulletType: REGULAR
+    #The fire mode of the gun
+    #AUTOMATIC,
+    #SEMI_AUTOMATIC
+    #BURST_FIRE
+    gunType: AUTOMATIC
+    #If using BURST_FIRE mode set this to the burst fire amount
+    maxBurstCount: 0
+    #Amount of shots until empty
+    maxShotCount: 30
+
+    #How many shots are added each reload cycle
+    shotsAddedPerReloadCycle: 1
+    #How many bullets does one reload cycle consume
+    bulletsDrawnPerReloadCycle: 1
+
+    #How fast is each reload cycle (ticks)
+    reloadSpeed: 3
+    #How fast does the gun shoot (ticks)
+    fireSpeed: 4
+
+    #ALL BULLET VALUES MUST HAVE A DECIMAL IN THEM ('0.0' vs '0' for example)
+    bulletDrop: 0.01
+    bulletSpeed: 3.0
+    bulletDamage: 5.0
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.01
+    bulletSpread: 10.0
+    bulletPower: 0.0
+
+    #I lied this one shouldn't have a decimal place
+    bulletCountPerShot: 1
+
+    #What kind of attachments dont make sense for the weapon
+    #BULLET_DROP
+    #BULLET_SPEED
+    #BULLET_DAMAGE
+    #HEADSHOT_MULTIPLIER
+    #BULLET_FALLOFF
+    #BULLET_SPREAD
+    #BULLET_POWER
+    #BULLET_COUNT_PER_SHOT
+    #
+    #BURST_COUNT
+    #AMMO_COUNT
+    #RELOAD_SPEED
+    #SHOOT_SPEED
+    #
+    #ATTACHMENT_SILENCER
+    #ATTACHMENT_SCOPE
+    #ATTACHMENT_HIT_SOUND
+    #ATTACHMENT_THERMALS
+    #ATTACHMENT_NIGHT_VISION
+    #ATTACHMENT_LASER_SIGHT
+    #ATTACHMENT_ARMOR_PIERCING
+    incompatibleAttachments:
+      - BULLET_COUNT_PER_SHOT
+      - BULLET_POWER
+      - BURST_COUNT
+
+    #Shape of the crafting recipe (must be 3x3)
+    shape:
+      - " aa"
+      - "pcb"
+      - "ra "
+    #the materials used to craft this item
+    #you can use either a in-game item (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
+    #or you can use a Component by typing the name
+    ingredients:
+      p: "largegunbody"
+      c: "largeguncomponent"
+      a: "reinforcedalloy"
+      b: "largebarrel"
+      r: "largeriflereceiver"

@@ -1,0 +1,13 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&8Tracer Round"
+    modelId: 215
+    bulletCount: 15
+    shape:
+      - " s "
+      - " g "
+      - " b "
+    ingredients:
+      s: "spectral_arrow"
+      g: "gunpowder"
+      b: "bulletcase"

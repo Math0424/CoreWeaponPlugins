@@ -1,0 +1,19 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bSilencer"
+    modelID: 14
+    classifier: "silencer"
+    lore:
+      - '&9Silences the gunshots'
+    modifiers:
+      ATTACHMENT_SILENCER: 0.0
+
+    shape:
+      - "aaa"
+      - "lnd"
+      - "aaa"
+    ingredients:
+      d: "infuseddiamond"
+      l: "lightdiode"
+      n: "nether_wart"
+      a: "alloy"

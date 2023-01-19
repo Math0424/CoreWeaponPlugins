@@ -1,0 +1,15 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&8MiniNuke"
+    modelId: 213
+    bulletCount: 1
+    shape:
+      - "ata"
+      - "lsl"
+      - "ara"
+    ingredients:
+      a: "reinforcedalloy"
+      l: "laserdiode"
+      s: "nether_star"
+      t: "tnt"
+      r: "reinforcedbulletcase"

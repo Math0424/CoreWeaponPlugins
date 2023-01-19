@@ -1,0 +1,13 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&87.62x51mm NATO"
+    modelId: 203
+    bulletCount: 60
+    shape:
+      - "abg"
+      - "abg"
+      - "aaa"
+    ingredients:
+      a: "alloy"
+      b: "bulletcase"
+      g: "gunpowder"

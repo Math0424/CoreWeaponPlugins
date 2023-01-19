@@ -1,0 +1,12 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bSilencer"
+    material: IRON_NUGGET
+    modelId: 14
+    lore:
+      - '&9Silences the gunshots'
+    classifier: SILENCER
+    modifiers:
+      - SILENCER:100.0
+    level: 45
+    chanceOfSpawning: 1.0

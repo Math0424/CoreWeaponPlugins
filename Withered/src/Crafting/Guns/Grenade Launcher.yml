@@ -1,0 +1,36 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7Grenade Launcher"
+    ammoId: 16
+    modelId: 31
+    isPrimaryGun: false
+    fireType: SEMI_AUTOMATIC
+    fireRate: 10
+    reloadRate: 30
+    maxAmmoCount: 1
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: GRENADE_LAUNCHER
+    fireVolume: 150
+    firePitch: 1.6
+    bulletCount: 1
+    bulletDamage: 1.0
+    bulletHeadShotDamage: 1.0
+    bulletFalloff: 0.0
+    bulletSpread: 10
+    bulletSpeed: 3.0
+    bulletDrop: 0.2
+    bulletType: GRENADELAUNCHER
+    illegalAttachments:
+      - SILENCER
+      - ARMORPENETRATION
+      - MAXLOAD
+      - HEADSHOTMULTIPLIER
+      - EXTENDEDMAG
+      - TAPEDMAG
+      - LONGBARREL
+      - HITNOTIFY
+    startingAttachments:
+    explosiveYield: 3.5
+    level: 36
+    chanceOfSpawning: 3.0

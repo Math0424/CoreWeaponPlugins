@@ -1,0 +1,13 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&8.50BMG"
+    modelId: 208
+    bulletCount: 10
+    shape:
+      - " b "
+      - "ggg"
+      - " a "
+    ingredients:
+      b: "iron_block"
+      a: "hardenedbulletcase"
+      g: "tnt"

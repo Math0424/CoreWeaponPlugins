@@ -1,0 +1,16 @@
+grenade:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GrenadeSerializable
+    name: "&4Grenade"
+    material: SLIME_BALL
+    modelId: 101
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 3.0
+    grenadeType: GRENADE
+    throwSound: ENTITY_EXPERIENCE_ORB_PICKUP
+    throwPitch: 1.0
+    throwVolume: 3
+    maxStackSize: 10
+    maxAmount: 5
+    level: 10
+    chanceOfSpawning: 1.0

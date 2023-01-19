@@ -1,0 +1,16 @@
+grenade:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GrenadeSerializable
+    name: "&bIncinerationGrenade"
+    material: CLAY_BALL
+    modelId: 109
+    explodeTime: 60
+    throwMultiplier: 1.5
+    explosiveYield: 6.0
+    grenadeType: INCINERATOR
+    throwSound: UI_BUTTON_CLICK
+    throwPitch: 1.0
+    throwVolume: 3
+    maxStackSize: 5
+    maxAmount: 1
+    level: 40
+    chanceOfSpawning: 1.0

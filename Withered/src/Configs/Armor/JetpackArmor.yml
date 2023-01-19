@@ -1,0 +1,33 @@
+armor:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.ArmorSerializable
+    #name of the armor '&' represents the minecraft color code
+    name: "&bJetPack"
+    #what item the gun will be a list of item types are found below
+    #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+    material: DIAMOND_CHESTPLATE
+    #model data of item
+    modelId: 1
+    #what type of armor is this:
+    #SPEEDBOOTS
+    #JETPACK
+    #POWERLEGS
+    armorType: JETPACK
+    #uses
+    uses: 528
+    #how much the armor will be fixed per reload
+    usesFixedPerReload: 20
+    #how long does it take to reload one fixAmount
+    fixTime: 3
+    #What ammo ID will the armor use to reload durability
+    ammoId: 8
+    #how fast can the armor move
+    maxSpeed: 1.4
+    #how fast will it accelerate to the speed
+    acceleration: 0.2
+    #what is the max height for using the weapon
+    maxHeight: 225
+    #level to spawn in chests
+    level: 50
+    #how often will this spawn in a normal loot chest (0.0 for nothing)
+    # 0 - 100.000
+    chanceOfSpawning: 1.0

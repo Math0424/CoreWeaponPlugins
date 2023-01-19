@@ -1,0 +1,34 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&7Tracer"
+    ammoId: 10
+    modelId: 16
+    isPrimaryGun: false
+    fireType: SEMI_AUTOMATIC
+    fireRate: 20
+    reloadRate: 60
+    maxAmmoCount: 1
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: TRACER_GUN
+    fireVolume: 200
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 0.0
+    bulletHeadShotDamage: 0.0
+    bulletFalloff: 0.0
+    bulletSpread: 10
+    bulletSpeed: 3.0
+    bulletDrop: 0.2
+    bulletType: TRACER
+    illegalAttachments:
+      - SILENCER
+      - ARMORPENETRATION
+      - HEADSHOTMULTIPLIER
+      - MAXLOAD
+      - EXTENDEDMAG
+      - TAPEDMAG
+    startingAttachments:
+    explosiveYield: 5.0
+    level: 15
+    chanceOfSpawning: 3.0

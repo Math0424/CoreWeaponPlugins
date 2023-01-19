@@ -1,0 +1,19 @@
+attachment:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AttachmentSerializable
+    name: "&bSkull crusher"
+    modelID: 8
+    classifier: "headshot"
+    lore:
+      - '&a+1.5 Headshot dmg'
+    modifiers:
+      HEADSHOT_MULTIPLIER: 1.5
+
+    shape:
+      - "bbb"
+      - "tta"
+      - "aaa"
+    ingredients:
+      b: "largebarrel"
+      t: "tnt"
+      a: "hardenedalloy"
+

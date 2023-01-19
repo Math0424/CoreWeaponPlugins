@@ -1,0 +1,10 @@
+ammo:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AmmoSerializable
+    name: "&8Tracer Round"
+    id: 10
+    modelId: 215
+    material: GOLD_NUGGET
+    maxAmount: 10
+    maxStackSize: 30
+    level: 12
+    chanceOfSpawning: 1.0

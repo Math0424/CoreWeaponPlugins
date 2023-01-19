@@ -1,0 +1,34 @@
+gun:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GunSerializable
+    name: "&cLaser"
+    ammoId: 11
+    modelId: 7
+    isPrimaryGun: false
+    fireType: AUTOMATIC
+    fireRate: 3
+    reloadRate: 2
+    maxAmmoCount: 50
+    ammoPerReload: 1
+    bulletsPerReload: 1
+    fireSound: LASER_GUN
+    fireVolume: 100
+    firePitch: 1.0
+    bulletCount: 1
+    bulletDamage: 2.0
+    bulletHeadShotDamage: 3.0
+    bulletFalloff: 0.0
+    bulletSpread: 3
+    #distance
+    bulletSpeed: 70.0
+    bulletDrop: 0.0
+    bulletType: LASER
+    illegalAttachments:
+      - EXPLOSIVEPUNCH
+      - SILENCER
+      - MAXLOAD
+      - LONGBARREL
+      - ARMORPENETRATION
+      - HEADSHOTMULTIPLIER
+    startingAttachments:
+    level: 25
+    chanceOfSpawning: 3.0

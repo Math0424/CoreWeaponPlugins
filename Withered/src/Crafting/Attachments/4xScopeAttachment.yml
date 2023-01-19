@@ -1,0 +1,14 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bScope x4"
+    material: IRON_NUGGET
+    modelId: 1
+    positiveModifier: 15.0
+    negativeModifier: 0.0
+    lore:
+      - '&9+4 Zoom'
+    classifier: SCOPE
+    modifiers:
+      - SCOPE:5.0
+    level: 20
+    chanceOfSpawning: 1.0

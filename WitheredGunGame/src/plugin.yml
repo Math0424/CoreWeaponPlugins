@@ -1,0 +1,16 @@
+name: WitheredGunGame
+version: 1.0.3
+author: Math0424
+main: me.Math0424.WitheredGunGame.WitheredGunGame
+api-version: 1.15
+depend: [WitheredAPI]
+softdepend: [Multiverse-Core, Withered]
+commands:
+  leave:
+    description: leave the game
+  witheredgg:
+    description: use the withered GunGame interface
+permissions:
+  witheredgg.admin:
+    description: use the commands
+    default: op

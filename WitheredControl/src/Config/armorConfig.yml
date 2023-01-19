@@ -1,0 +1,52 @@
+armor:
+
+- ==: me.Math0424.Withered.Armor.Armor
+  #name of the armor '&' represents the minecraft color code
+  name: "&bJetPack"
+  #what item the gun will be a list of item types are found below
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  material: DIAMOND_CHESTPLATE
+  #what type of armor is this:
+  #SPEEDBOOTS
+  #JETPACK
+  type: JETPACK
+  #uses
+  uses: 528
+  #how much the armor will be fixed per reload
+  usesReloadedPerAmmo: 20
+  #how long does it take to reload one fixAmount
+  fixTime: 3
+  #What ammo ID will the armor use to reload durability
+  fuelId: 8
+  #how fast can the armor move
+  speed: 1.4
+  #how fast will it accelerate to the speed
+  acceleration: 0.2
+  #what is the max height for using the weapon
+  maxHeight: 225
+  #how often will this spawn in a normal loot chest (0.0 for nothing)
+  # 0 - 100.000
+  chanceOfSpawnInNormalLootChest: 0.0
+  # 0 - 100.000
+  #how often will this spawn in a advanced loot chest (0.0 for nothing)
+  chanceOfSpawnInAdvancedLootChest: 1.0
+  #how often will this spawn in a drop crate (0.0 for nothing)
+  # 0 - 100.000
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Armor.Armor
+  name: "&aSpeedBoots"
+  material: DIAMOND_BOOTS
+  type: SPEEDBOOTS
+  uses: 429
+  usesReloadedPerAmmo: 20
+  fixTime: 3
+  fuelId: 8
+  speed: 3.0
+  acceleration: 0.3
+  maxHeight: 150
+  chanceOfSpawnInNormalLootChest: 0.0
+  chanceOfSpawnInAdvancedLootChest: 5.0
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 10.0

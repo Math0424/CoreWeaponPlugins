@@ -1,0 +1,159 @@
+grenades:
+  
+- ==: me.Math0424.Withered.Grenades.Grenade
+  #name of the weapon '&' represents the minecraft color code
+  name: "&bSingularity Grenade"
+  #what item the gun will be a list of item types are found below
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  material: FIREWORK_STAR
+  #how long in ticks(20 ticks in a seccond) till it explodes?
+  explodeTime: 60
+  #how far can you throw the grenade
+  throwMultiplier: 1.5
+  #how big will the boom be
+  explosiveYield: 3.0
+  #what type of grenade is this:
+  #SINGULARITY
+  #IMPACT
+  #GRENADE
+  grenadeType: SINGULARITY
+  #what noise does this make when you throw it
+  sound: ITEM_AXE_STRIP
+  #pitch of noise
+  pitch: 1.0
+  #volume of noise
+  volume: 3
+  #how big can this item stack to
+  #keep this number between 64-1
+  maxStackSize: 3
+  #max that can spawn in a chest
+  maxAmount: 5
+  #how often will this spawn in a normal loot chest (0.0 for nothing)
+  # 0 - 100.000
+  chanceOfSpawnInNormalLootChest: 0.0
+  # 0 - 100.000
+  #how often will this spawn in a advanced loot chest (0.0 for nothing)
+  chanceOfSpawnInAdvancedLootChest: 10.0
+  #how often will this spawn in a drop crate (0.0 for nothing)
+  # 0 - 100.000
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Grenades.Grenade
+  name: "&2Impact Grenade"
+  material: SLIME_BALL
+  explodeTime: 60
+  throwMultiplier: 1.5
+  explosiveYield: 3.0
+  grenadeType: IMPACT
+  sound: UI_BUTTON_CLICK
+  pitch: 1.0
+  volume: 3
+  maxStackSize: 5
+  maxAmount: 5
+  chanceOfSpawnInAdvancedLootChest: 1.5
+  chanceOfSpawnInNormalLootChest: 0.05
+  chanceOfSpawnInDropCrate: 50.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Grenades.Grenade
+  name: "&4Grenade"
+  material: CLAY_BALL
+  explodeTime: 60
+  throwMultiplier: 1.5
+  explosiveYield: 3.0
+  grenadeType: GRENADE
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  pitch: 1.0
+  volume: 3
+  maxStackSize: 8
+  maxAmount: 5
+  chanceOfSpawnInAdvancedLootChest: 3.0
+  chanceOfSpawnInNormalLootChest: 2.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Grenades.Grenade
+  name: "&8SmokeGrenade"
+  material: COAL
+  explodeTime: 60
+  throwMultiplier: 1.5
+  explosiveYield: 5.0
+  grenadeType: SMOKE
+  sound: UI_BUTTON_CLICK
+  pitch: 1.0
+  volume: 3
+  maxStackSize: 10
+  maxAmount: 5
+  chanceOfSpawnInAdvancedLootChest: 15.0
+  chanceOfSpawnInNormalLootChest: 10.0
+  chanceOfSpawnInDropCrate: 10.0
+  chanceOfSpawnInWeaponsCache: 10.0
+  
+- ==: me.Math0424.Withered.Grenades.Grenade
+  name: "&2GasGrenade"
+  material: SCUTE
+  explodeTime: 60
+  throwMultiplier: 1.5
+  explosiveYield: 5.0
+  grenadeType: GAS
+  sound: UI_BUTTON_CLICK
+  pitch: 1.0
+  volume: 3
+  maxStackSize: 10
+  maxAmount: 5
+  chanceOfSpawnInAdvancedLootChest: 15.0
+  chanceOfSpawnInNormalLootChest: 10.0
+  chanceOfSpawnInDropCrate: 30.0
+  chanceOfSpawnInWeaponsCache: 20.0
+  
+- ==: me.Math0424.Withered.Grenades.Grenade
+  name: "&5ClusterGrenade"
+  material: MELON_SEEDS
+  explodeTime: 60
+  throwMultiplier: 1.5
+  explosiveYield: 5.0
+  grenadeType: CLUSTER
+  sound: UI_BUTTON_CLICK
+  pitch: 1.0
+  volume: 3
+  maxStackSize: 5
+  maxAmount: 3
+  chanceOfSpawnInAdvancedLootChest: 3.5
+  chanceOfSpawnInNormalLootChest: 1.0
+  chanceOfSpawnInDropCrate: 80.0
+  chanceOfSpawnInWeaponsCache: 60.0
+  
+- ==: me.Math0424.Withered.Grenades.Grenade
+  name: "&8FlashBang"
+  material: NETHER_STAR
+  explodeTime: 20
+  throwMultiplier: 1.5
+  explosiveYield: 5.0
+  grenadeType: FLASHBANG
+  sound: UI_BUTTON_CLICK
+  pitch: 1.0
+  volume: 3
+  maxStackSize: 5
+  maxAmount: 2
+  chanceOfSpawnInAdvancedLootChest: 15.0
+  chanceOfSpawnInNormalLootChest: 10.0
+  chanceOfSpawnInDropCrate: 80.0
+  chanceOfSpawnInWeaponsCache: 20.0
+  
+- ==: me.Math0424.Withered.Grenades.Grenade
+  name: "&dEMP"
+  material: IRON_NUGGET
+  explodeTime: 30
+  throwMultiplier: 1.5
+  explosiveYield: 20.0
+  grenadeType: EMP
+  sound: UI_BUTTON_CLICK
+  pitch: 1.0
+  volume: 3
+  maxStackSize: 10
+  maxAmount: 3
+  chanceOfSpawnInAdvancedLootChest: 10.0
+  chanceOfSpawnInNormalLootChest: 10.0
+  chanceOfSpawnInDropCrate: 30.0
+  chanceOfSpawnInWeaponsCache: 50.0

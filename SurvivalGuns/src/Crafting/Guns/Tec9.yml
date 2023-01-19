@@ -1,0 +1,43 @@
+gun:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.GunSerializable
+    name: "&7Tec9"
+    modelID: 25
+    ammoID: "9mm"
+    fireSoundID: "gun_automatic_small_shoot"
+    firePitch: 1.3
+    fireSoundRange: 100
+
+    isPrimaryGun: false
+    bulletType: REGULAR
+    gunType: BURST_FIRE
+    maxBurstCount: 10
+    maxShotCount: 30
+
+    shotsAddedPerReloadCycle: 1
+    bulletsDrawnPerReloadCycle: 1
+
+    reloadSpeed: 1
+    fireSpeed: 3
+
+    bulletDrop: 0.15
+    bulletSpeed: 1.5
+    bulletDamage: 3.0
+    headshotMultiplier: 1.5
+    bulletFalloff: 0.1
+    bulletSpread: 15.0
+    bulletPower: 0.0
+    bulletCountPerShot: 1
+
+    incompatibleAttachments:
+      - BULLET_POWER
+      - BULLET_COUNT_PER_SHOT
+    shape:
+      - "a  "
+      - "pcb"
+      - "ra "
+    ingredients:
+      p: "smallgunbody"
+      c: "smallguncomponent"
+      a: "alloy"
+      b: "smallbarrel"
+      r: "smallpistolreceiver"

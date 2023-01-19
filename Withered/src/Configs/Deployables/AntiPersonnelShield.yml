@@ -1,0 +1,16 @@
+armor:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.DeployableSerializable
+    name: "&bAntiPersonnelShield"
+    modelId: 2
+    #types
+    #SHIELD
+    #PLAYER
+    #HEAL
+    type: PLAYER
+    maxHealth: 800.0
+    range: 9.0
+    deploySound: BLOCK_ANVIL_FALL
+    deployPitch: 1
+    deployVolume: 1
+    level: 50
+    chanceOfSpawning: 1.0

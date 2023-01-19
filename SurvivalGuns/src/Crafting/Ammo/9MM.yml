@@ -1,0 +1,13 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    name: "&89MM"
+    modelId: 204
+    bulletCount: 64
+    shape:
+      - "a  "
+      - "ab "
+      - "aga"
+    ingredients:
+      a: "alloy"
+      b: "bulletcase"
+      g: "gunpowder"

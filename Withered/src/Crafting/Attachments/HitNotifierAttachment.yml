@@ -1,0 +1,12 @@
+attachment:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AttachmentSerializable
+    name: "&bHitNotifier"
+    material: IRON_NUGGET
+    modelId: 9
+    lore:
+      - '&9Hear hit noise when target is damaged'
+    classifier: HITNOTIFY
+    modifiers:
+      - HIT_NOTIFY:0.0
+    level: 10
+    chanceOfSpawning: 1.0

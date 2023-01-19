@@ -1,0 +1,10 @@
+ammo:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.AmmoSerializable
+    name: "&8Grenade Casing"
+    id: 16
+    modelId: 211
+    material: GOLD_NUGGET
+    maxAmount: 5
+    maxStackSize: 30
+    level: 10
+    chanceOfSpawning: 1.0

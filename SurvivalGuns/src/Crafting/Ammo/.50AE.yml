@@ -1,0 +1,17 @@
+ammo:
+  - ==: me.Math0424.SurvivalGuns.CoreWeapons.AmmoSerializable
+    #Name of the item
+    name: "&8.50AE"
+    #ModelID
+    modelId: 201
+    #Amount of bullets in one stack
+    bulletCount: 15
+
+    shape:
+      - " b "
+      - "ggg"
+      - " a "
+    ingredients:
+      b: "iron_ingot"
+      a: "hardenedbulletcase"
+      g: "gunpowder"

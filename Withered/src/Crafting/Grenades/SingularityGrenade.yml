@@ -1,0 +1,42 @@
+grenade:
+  - ==: me.Math0424.Withered.WitheredAPI.Serializable.GrenadeSerializable
+    #name of the weapon '&' represents the minecraft color code
+    name: "&bSingularity Grenade"
+    #what item the gun will be a list of item types are found below
+    #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+    material: NETHER_STAR
+    #model ID
+    modelId: 108
+    #how long in ticks(20 ticks in a seccond) till it explodes?
+    explodeTime: 60
+    #how far can you throw the grenade
+    throwMultiplier: 1.5
+    #how big will the boom be
+    explosiveYield: 3.0
+    #what type of grenade is this:
+    #GRENADE
+    #SINGULARITY
+    #IMPACT
+    #SMOKE
+    #FLASHBANG
+    #GAS
+    #INCINERATOR
+    #EMP
+    #CLUSTER
+    grenadeType: SINGULARITY
+    #what noise does this make when you throw it
+    throwSound: ITEM_AXE_STRIP
+    #throwPitch of noise
+    throwPitch: 1.0
+    #throwVolume of noise
+    throwVolume: 3
+    #how big can this item stack to
+    #keep this number between 64-1
+    maxStackSize: 3
+    #max that can spawn in a chest
+    maxAmount: 5
+    #Level of the item
+    level: 50
+    #how often will this spawn in a normal loot chest (0.0 for nothing)
+    # 0 - 100.000
+    chanceOfSpawning: 1.0
